@@ -1,0 +1,1653 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0f6e6a">
+<title>從流量到訂單｜AI 助攻的新創廣告投放攻略</title>
+<meta name="description" content="桃園市政府青年事務局 2 小時工作坊學員站（講師 何佳勳／小圭）。受眾、素材、預算、數據四關，11 段 AI 提示詞一鍵複製，四大受眾表、CPA 天花板試算、漏斗診斷器直接在手機上填。">
+<link rel="canonical" href="https://atm301.github.io/startup-ads-workshop/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="圭話行銷 ATMarketing">
+<meta property="og:title" content="從流量到訂單｜AI 助攻的新創廣告投放攻略">
+<meta property="og:description" content="受眾 → 素材 → 預算 → 數據。帶著自己的產品進來，帶著一份隔天就能開跑的投放計畫離開。">
+<meta property="og:url" content="https://atm301.github.io/startup-ads-workshop/">
+<meta property="og:image" content="https://atm301.github.io/startup-ads-workshop/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="從流量到訂單｜AI 助攻的新創廣告投放攻略">
+<meta name="twitter:description" content="受眾 → 素材 → 預算 → 數據，提示詞與計算機一次帶走。">
+<meta name="twitter:image" content="https://atm301.github.io/startup-ads-workshop/og.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Event","name":"從流量到訂單：AI 助攻的新創廣告投放攻略","startDate":"2026-10-14T10:00+08:00","endDate":"2026-10-14T12:00+08:00","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"桃園","address":{"@type":"PostalAddress","addressLocality":"桃園市","addressCountry":"TW"}},"performer":{"@type":"Person","name":"何佳勳（小圭老師）"},"organizer":{"@type":"Organization","name":"桃園市政府青年事務局"},"description":"受眾設定、素材規劃、預算配置、數據判讀四關，搭配 AI 提示詞與試算工具。"}
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDJD1YVHR7"></script>
+<script>
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RDJD1YVHR7');
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init','4979950938896019');fbq('track','PageView');
+</script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  :root{
+    --teal:#0f6e6a; --deep:#113f3f; --mint:#2ec4b6; --mint2:#7fe3d8;
+    --ink:#15262a; --mute:#648084; --cream:#f0f7f6; --paper:#fff;
+    --line:#d3e9e6; --tint:#e4f4f1; --sunken:#f4fbfa;
+    --amber:#c98a2e; --red:#c0392b; --green:#1f8a4c;
+    --brand-primary:var(--teal);
+    --shadow:0 10px 28px rgba(15,110,106,.08);
+  }
+  html{scroll-behavior:smooth;}
+  body{font-family:'Noto Sans TC',system-ui,'PingFang TC','Microsoft JhengHei',sans-serif;background:var(--cream);color:var(--ink);line-height:1.75;-webkit-text-size-adjust:100%;}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 18px;}
+  a{color:var(--teal);}
+  header.top{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+  .topbar{display:flex;align-items:center;gap:10px;padding:8px 0;}
+  .logo{font-weight:900;font-size:1rem;color:var(--teal);white-space:nowrap;}
+  .logo small{display:block;font-size:.66rem;color:var(--mute);font-weight:700;letter-spacing:.04em;}
+  .tabwrap{position:relative;}
+  .tabwrap::after{content:"";position:absolute;right:-18px;top:0;bottom:8px;width:38px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.97));pointer-events:none;}
+  .tabs{display:flex;gap:6px;overflow-x:auto;padding:0 26px 8px 0;scrollbar-width:none;scroll-behavior:smooth;}
+  .tabs::-webkit-scrollbar{display:none;}
+  .tab-btn{flex:0 0 auto;border:1px solid var(--line);background:var(--paper);color:var(--mute);border-radius:999px;padding:7px 13px;font-weight:800;font-size:.84rem;font-family:inherit;cursor:pointer;}
+  .tab-btn.on{background:var(--teal);border-color:var(--teal);color:#fff;box-shadow:0 4px 14px rgba(15,110,106,.28);}
+  @media (max-width:430px){.tab-btn{padding:7px 11px;font-size:.8rem;}}
+  .hero{background:linear-gradient(135deg,#0f6e6a,#113f3f 72%);color:#fff;padding:34px 0 30px;}
+  .hero .kicker{display:inline-block;background:rgba(127,227,216,.2);border:1px solid rgba(127,227,216,.45);border-radius:999px;padding:4px 14px;font-weight:800;font-size:.8rem;margin-bottom:12px;color:#b6f0e8;}
+  .hero h1{font-size:clamp(1.55rem,5.2vw,2.5rem);font-weight:900;line-height:1.28;letter-spacing:-.01em;}
+  .hero .sub{margin-top:10px;font-size:clamp(.95rem,2.4vw,1.1rem);opacity:.95;font-weight:500;}
+  .hero .sub b{color:var(--mint2);}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;}
+  .hero .meta span{background:rgba(0,0,0,.2);border-radius:999px;padding:5px 13px;font-size:.84rem;font-weight:700;}
+  .hero-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;}
+  .btn{display:inline-flex;align-items:center;gap:7px;border:0;border-radius:999px;padding:11px 20px;font-weight:800;font-size:.94rem;font-family:inherit;cursor:pointer;text-decoration:none;transition:transform .12s;}
+  .btn:active{transform:translateY(1px);}
+  .btn-primary{background:var(--teal);color:#fff;box-shadow:0 6px 18px rgba(15,110,106,.3);}
+  .btn-mint{background:var(--mint);color:#073a36;}
+  .btn-light{background:#fff;color:var(--teal);}
+  .btn-ghost{background:var(--paper);color:var(--teal);border:1px solid var(--line);}
+  .btn-sm{padding:7px 14px;font-size:.84rem;}
+  .tab-section{display:none;padding:26px 0 78px;}
+  .tab-section.active{display:block;animation:fade .25s ease;}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .sec-tag{display:inline-block;background:var(--tint);color:var(--teal);border-radius:999px;padding:4px 13px;font-weight:800;font-size:.78rem;margin-bottom:10px;}
+  .sec-title{font-size:clamp(1.3rem,3.8vw,1.9rem);font-weight:900;margin-bottom:14px;line-height:1.35;}
+  .sec-title .em{color:var(--mint);}
+  .h3{font-size:1.06rem;font-weight:900;margin:26px 0 12px;padding-left:11px;border-left:5px solid var(--mint);}
+  .lead{color:var(--mute);margin-bottom:14px;}
+  .callout{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--teal);border-radius:12px;padding:13px 16px;margin:12px 0;box-shadow:var(--shadow);}
+  .callout.warn{border-left-color:var(--amber);background:#fffaf0;}
+  .callout.ok{border-left-color:var(--green);background:#f1fbf5;}
+  .callout.bad{border-left-color:var(--red);background:#fdf3f2;}
+  .muted-note{color:var(--mute);font-size:.88rem;}
+  .grid{display:grid;gap:12px;}
+  .g2{grid-template-columns:repeat(auto-fit,minmax(250px,1fr));}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(215px,1fr));}
+  .g4{grid-template-columns:repeat(auto-fit,minmax(170px,1fr));}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:15px 16px;box-shadow:var(--shadow);}
+  .card h3{font-size:1rem;font-weight:900;margin-bottom:6px;color:var(--teal);display:flex;align-items:center;gap:7px;}
+  .card p{font-size:.9rem;color:var(--mute);}
+  .card .num{display:inline-flex;width:26px;height:26px;border-radius:50%;background:var(--mint);color:#073a36;align-items:center;justify-content:center;font-size:.82rem;flex:0 0 auto;font-weight:900;}
+  .card.dk{background:linear-gradient(140deg,#113f3f,#15524f);border-color:#113f3f;}
+  .card.dk h3,.card.dk p{color:#d4f1ed;}
+  .card.hot{border-top:4px solid var(--amber);}
+  .flow{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:12px 0;}
+  .flow .n{background:var(--teal);color:#fff;border-radius:999px;padding:7px 14px;font-weight:800;font-size:.86rem;}
+  .flow .n.lite{background:var(--tint);color:var(--teal);}
+  .flow .ar{color:var(--mute);font-weight:900;}
+  .tw{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:14px;background:var(--paper);box-shadow:var(--shadow);}
+  table{width:100%;border-collapse:collapse;min-width:520px;font-size:.88rem;}
+  thead th{background:var(--teal);color:#fff;text-align:left;padding:10px 12px;font-weight:800;white-space:nowrap;}
+  tbody td{padding:10px 12px;border-top:1px solid var(--line);vertical-align:top;}
+  tbody tr:nth-child(even){background:var(--sunken);}
+  tbody td b{color:var(--teal);}
+  .tw.sm table{min-width:420px;}
+  .vs{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin:12px 0;}
+  .col{border-radius:14px;padding:15px 16px;border:1px solid var(--line);background:var(--paper);}
+  .col h4{font-size:.95rem;font-weight:900;margin-bottom:8px;}
+  .col.bad{background:#fdf3f2;border-color:#f0ccc8;} .col.bad h4{color:var(--red);}
+  .col.good{background:#f1fbf6;border-color:#bfe6d1;} .col.good h4{color:var(--green);}
+  .col ul{margin:0;padding-left:19px;} .col li{font-size:.88rem;margin:5px 0;}
+  .elf{display:flex;gap:11px;align-items:flex-start;background:linear-gradient(120deg,#e6f6f4,#dcf1ed);border:1px solid #bfe6e0;border-radius:14px;padding:13px 15px;margin:14px 0;}
+  .elf .ic{font-size:1.6rem;line-height:1.2;flex:0 0 auto;}
+  .elf .t{font-size:.9rem;} .elf .t b{display:block;color:var(--teal);font-size:.8rem;letter-spacing:.03em;margin-bottom:2px;}
+  .poll{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:15px 16px;margin:12px 0;box-shadow:var(--shadow);}
+  .poll .q{font-weight:900;margin-bottom:10px;font-size:1rem;}
+  .popt{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:1px solid var(--line);background:var(--sunken);border-radius:11px;padding:10px 12px;margin-bottom:7px;font-family:inherit;font-size:.9rem;color:var(--ink);cursor:pointer;position:relative;overflow:hidden;}
+  .popt .k{flex:0 0 auto;width:25px;height:25px;border-radius:50%;background:var(--teal);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:.8rem;z-index:1;}
+  .popt .lb{flex:1;z-index:1;} .popt .lb small{display:block;color:var(--mute);font-size:.78rem;}
+  .popt .pc{font-weight:900;color:var(--teal);font-size:.84rem;z-index:1;}
+  .popt .bar{position:absolute;left:0;top:0;bottom:0;background:#cdeeea;width:0;transition:width .5s;}
+  .popt.mine{border-color:var(--mint);box-shadow:0 0 0 2px rgba(46,196,182,.2);}
+  .poll .n{font-size:.8rem;color:var(--mute);margin-top:6px;}
+  .ansbox{display:none;margin-top:10px;border-radius:12px;padding:12px 14px;background:#f1fbf6;border:1px solid #bfe6d1;}
+  .ansbox.show{display:block;animation:fade .3s ease;}
+  .ansbox .a{font-weight:900;color:var(--green);margin-bottom:5px;}
+  .ansbox p{font-size:.88rem;margin-bottom:6px;}
+  .ansbox .ext{font-size:.84rem;color:var(--mute);}
+  .tcard{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px;margin-bottom:14px;box-shadow:var(--shadow);}
+  .tcard .hd{display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap;margin-bottom:8px;}
+  .tcard h3{font-size:1.04rem;font-weight:900;flex:1;min-width:180px;}
+  .badge{background:var(--tint);color:var(--teal);border-radius:999px;padding:3px 11px;font-size:.72rem;font-weight:800;white-space:nowrap;}
+  .badge.g{background:#fdf3e0;color:#9a6a12;}
+  .pbody{white-space:pre-wrap;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.83rem;line-height:1.66;background:var(--sunken);border:1px dashed var(--line);border-radius:12px;padding:13px;max-height:260px;overflow:auto;}
+  .pbody.open{max-height:none;}
+  .prow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px;}
+  .ai-go{display:flex;gap:8px;flex-wrap:wrap;}
+  .ai-go a{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:6px 13px;font-size:.82rem;font-weight:800;text-decoration:none;color:var(--teal);}
+  .src{font-size:.76rem;color:var(--mute);margin-left:auto;}
+  .toolgrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));}
+  .toolcard{display:flex;flex-direction:column;gap:6px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 15px;box-shadow:var(--shadow);}
+  .toolcard .tn{font-weight:900;font-size:.98rem;display:flex;align-items:center;gap:7px;}
+  .toolcard .td{font-size:.85rem;color:var(--mute);flex:1;}
+  .toolcard .tu{font-size:.76rem;color:var(--mute);word-break:break-all;}
+  .toolcard a.go{align-self:flex-start;margin-top:4px;}
+  .star{color:var(--amber);}
+  .fill{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow);margin:12px 0;}
+  .fill label{display:block;font-weight:800;font-size:.86rem;margin:11px 0 5px;}
+  .fill input[type=text],.fill input[type=number],.fill select,.fill textarea{width:100%;border:1px solid var(--line);border-radius:11px;padding:10px 12px;font-family:inherit;font-size:.92rem;background:var(--sunken);color:var(--ink);}
+  .fill textarea{min-height:72px;resize:vertical;}
+  .mx{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--paper);box-shadow:var(--shadow);margin:12px 0;}
+  .mx table{min-width:860px;}
+  .mx input{width:100%;border:1px solid var(--line);border-radius:8px;padding:7px 8px;font-family:inherit;font-size:.84rem;background:var(--sunken);}
+  .mx th.rowh{background:var(--deep);color:#fff;text-align:left;padding:10px 12px;white-space:nowrap;}
+  .calc{background:linear-gradient(140deg,#113f3f,#16514e);color:#fff;border-radius:16px;padding:18px;margin:12px 0;box-shadow:0 12px 30px rgba(17,63,63,.22);}
+  .calc h4{font-size:1rem;font-weight:900;margin-bottom:10px;color:var(--mint2);}
+  .calc .inrow{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(136px,1fr));}
+  .calc label{display:block;font-size:.8rem;font-weight:700;margin-bottom:4px;color:#b9ded9;}
+  .calc input{width:100%;border:1px solid rgba(255,255,255,.22);border-radius:10px;padding:9px 11px;font-family:inherit;font-size:1rem;font-weight:800;background:rgba(255,255,255,.1);color:#fff;}
+  .calc .out{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));margin-top:14px;}
+  .calc .o{background:rgba(255,255,255,.1);border-radius:12px;padding:11px;text-align:center;}
+  .calc .o b{display:block;font-size:1.3rem;font-weight:900;color:var(--mint2);line-height:1.3;}
+  .calc .o span{font-size:.76rem;color:#b9ded9;font-weight:700;}
+  .calc .note{margin-top:12px;font-size:.84rem;color:#cfe9e6;background:rgba(0,0,0,.18);border-radius:10px;padding:10px 12px;}
+  .diag{font-weight:900;color:#fff;}
+  .chips{display:flex;gap:7px;flex-wrap:wrap;}
+  .chip{border:1px solid var(--line);background:var(--sunken);border-radius:999px;padding:6px 13px;font-size:.84rem;font-weight:800;font-family:inherit;cursor:pointer;color:var(--mute);}
+  .chip.on{background:var(--mint);border-color:var(--mint);color:#073a36;}
+  .chk{display:flex;gap:10px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:11px 13px;margin-bottom:8px;cursor:pointer;}
+  .chk.on{border-color:var(--mint);background:#f2fbfa;}
+  .chk input{margin-top:5px;width:17px;height:17px;accent-color:var(--teal);flex:0 0 auto;}
+  .chk .t{font-size:.92rem;font-weight:700;} .chk .t small{display:block;font-weight:400;color:var(--mute);font-size:.82rem;}
+  .chk .d{flex:0 0 auto;font-weight:900;color:var(--teal);font-size:.78rem;background:var(--tint);border-radius:999px;padding:2px 9px;margin-top:2px;}
+  textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:11px;font-family:inherit;font-size:.93rem;background:var(--sunken);resize:vertical;min-height:110px;}
+  .up{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow);}
+  .lb2{display:block;font-weight:800;font-size:.88rem;margin:10px 0 5px;}
+  select,input[type=text]{width:100%;border:1px solid var(--line);border-radius:11px;padding:10px 12px;font-family:inherit;font-size:.93rem;background:var(--sunken);color:var(--ink);}
+  .modeseg{display:flex;gap:7px;}
+  .modeseg button{flex:1;border:1px solid var(--line);background:var(--sunken);border-radius:11px;padding:9px;font-weight:800;font-family:inherit;font-size:.88rem;cursor:pointer;color:var(--mute);}
+  .modeseg button.on{background:var(--teal);border-color:var(--teal);color:#fff;}
+  .dropz{border:2px dashed var(--line);border-radius:12px;padding:22px 14px;text-align:center;color:var(--mute);font-weight:700;cursor:pointer;background:var(--sunken);font-size:.9rem;}
+  .dropz.has{border-color:var(--mint);color:var(--teal);}
+  .dropz img{max-width:100%;max-height:190px;border-radius:10px;margin-top:9px;}
+  .who{display:flex;align-items:center;gap:9px;flex-wrap:wrap;background:var(--tint);border:1px solid var(--line);border-radius:12px;padding:10px 13px;margin-bottom:12px;}
+  .who .g{font-weight:900;color:var(--teal);}
+  .who button{margin-left:auto;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:5px 12px;font-size:.8rem;font-weight:800;font-family:inherit;cursor:pointer;color:var(--mute);}
+  .subitem{display:flex;gap:11px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:9px;}
+  .subitem .vN{flex:0 0 auto;background:var(--teal);color:#fff;border-radius:999px;padding:2px 10px;font-size:.74rem;font-weight:800;height:fit-content;}
+  .subitem .who2{font-size:.78rem;color:var(--mute);margin-bottom:5px;}
+  .subitem .txt{white-space:pre-wrap;font-size:.88rem;}
+  .subitem img{max-width:100%;border-radius:10px;}
+  .wall{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));}
+  .wcard{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--mint);border-radius:12px;padding:12px 14px;box-shadow:var(--shadow);}
+  .wcard .nm{font-size:.76rem;color:var(--mute);font-weight:800;margin-bottom:4px;}
+  .wcard .sent{font-size:.9rem;line-height:1.7;}
+  .wcard .sent b{color:var(--teal);}
+  .wcard.me{border-left-color:var(--amber);background:#fffdf7;}
+  .pill-live{display:inline-flex;align-items:center;gap:6px;background:var(--tint);color:var(--teal);border-radius:999px;padding:2px 11px;font-size:.74rem;font-weight:800;margin-left:8px;vertical-align:middle;}
+  .hud{position:fixed;right:14px;bottom:14px;z-index:35;background:rgba(17,63,63,.94);color:#fff;border-radius:999px;padding:8px 15px;display:none;align-items:center;gap:9px;box-shadow:0 8px 26px rgba(0,0,0,.26);cursor:pointer;font-size:.82rem;font-weight:800;}
+  .hud.show{display:flex;}
+  .hud.hide{display:none!important;}
+  .hud .bar{width:54px;height:6px;border-radius:999px;background:rgba(255,255,255,.25);overflow:hidden;}
+  .hud .bar i{display:block;height:100%;background:linear-gradient(90deg,#9ee8dd,#2ec4b6);width:0;transition:width .5s;}
+  .hud .gp small{display:block;font-weight:600;font-size:.7rem;opacity:.8;}
+  .overlay{position:fixed;inset:0;background:rgba(17,63,63,.6);z-index:60;display:none;align-items:center;justify-content:center;padding:18px;}
+  .overlay.show{display:flex;}
+  .modal{background:var(--paper);border-radius:20px;padding:22px;max-width:430px;width:100%;box-shadow:0 20px 60px rgba(0,0,0,.3);max-height:92vh;overflow:auto;}
+  .modal h2{font-size:1.2rem;font-weight:900;margin-bottom:5px;}
+  .modal .sub{color:var(--mute);font-size:.88rem;margin-bottom:14px;}
+  .modal label{display:block;font-weight:800;font-size:.86rem;margin:11px 0 5px;}
+  .err{display:none;color:var(--red);font-weight:800;font-size:.84rem;margin-top:9px;}
+  .skip{display:block;text-align:center;margin-top:11px;color:var(--mute);font-size:.84rem;}
+  #toast{position:fixed;left:50%;bottom:78px;transform:translateX(-50%) translateY(14px);background:var(--deep);color:#fff;padding:10px 20px;border-radius:999px;font-weight:800;font-size:.88rem;opacity:0;pointer-events:none;transition:.25s;z-index:70;max-width:90vw;text-align:center;}
+  #toast.show{opacity:1;transform:translateX(-50%);}
+  footer{background:var(--deep);color:#cde8e4;padding:26px 0 96px;font-size:.86rem;}
+  footer a{color:#8fe0d3;}
+  footer .fl{display:flex;flex-wrap:wrap;gap:12px;margin-top:9px;}
+  .srcs li{margin:7px 0;font-size:.9rem;}
+  @media print{header.top,.hud,.tabs,.hero-btns,#toast{display:none!important;}.tab-section{display:block!important;}body{background:#fff;}}
+  @media (max-width:520px){.src{margin-left:0;width:100%;}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="topbar"><div class="logo">🚀 從流量到訂單<small>AI 助攻的新創廣告投放攻略 · 10/14 桃園</small></div></div>
+    <div class="tabwrap">
+    <nav class="tabs" id="tabs" role="tablist">
+      <button class="tab-btn on" data-tab="start" type="button">🚀 開始</button>
+      <button class="tab-btn" data-tab="p1" type="button">① 受眾</button>
+      <button class="tab-btn" data-tab="p2" type="button">② 素材</button>
+      <button class="tab-btn" data-tab="p3" type="button">③ 預算</button>
+      <button class="tab-btn" data-tab="p4" type="button">④ 數據</button>
+      <button class="tab-btn" data-tab="prompts" type="button">📋 提示詞</button>
+      <button class="tab-btn" data-tab="tools" type="button">🧰 工具</button>
+      <button class="tab-btn" data-tab="done" type="button">🎁 帶走</button>
+    </nav>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== 開始 ===================== -->
+<section class="tab-section active" data-tab="start">
+  <div class="hero">
+    <div class="wrap">
+      <span class="kicker">桃園市政府青年事務局 · 2 小時工作坊</span>
+      <h1>從流量到訂單</h1>
+      <p class="sub"><b>AI 助攻的新創廣告投放攻略</b><br>受眾 → 素材 → 預算 → 數據。帶著自己的產品進來，帶著一份隔天就能開跑的投放計畫離開。</p>
+      <div class="meta"><span>📅 10/14（二）10:00 到 12:00</span><span>🎤 何佳勳（小圭老師）</span><span>圭話行銷股份有限公司 創辦人</span></div>
+      <div class="hero-btns">
+        <button class="btn btn-light" id="heroReg" type="button">🙋 報到（填暱稱與產品）</button>
+        <button class="btn btn-mint" type="button" onclick="switchTab('prompts')">📋 直接看 11 段提示詞</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <h2 class="h3">今天結束後，你會帶走這五個能力</h2>
+    <div class="grid g2">
+      <div class="card"><h3><span class="num">1</span>拆出可以測試的受眾</h3><p>用「問題 → 場景 → 人」拆出 2 到 3 組可以測試的受眾。</p></div>
+      <div class="card"><h3><span class="num">2</span>30 分鐘產出一組素材</h3><p>文案 3 版 ＋ 視覺概念，不用設計師也做得出來。</p></div>
+      <div class="card"><h3><span class="num">3</span>規劃驗證期到放大期的預算</h3><p>依客單價與資金水位，算出比例與每日預算。</p></div>
+      <div class="card"><h3><span class="num">4</span>看懂四個指標的因果鏈</h3><p>CTR、CPC、CPA、ROAS，找出問題在哪一關。</p></div>
+      <div class="card"><h3><span class="num">5</span>帶走提示詞包與檢核表</h3><p>11 段 AI 提示詞與投放前檢核表，換產品名就能重複用。</p></div>
+      <div class="card dk"><h3>📌 課前準備</h3><p>① 筆電或平板，可連網<br>② 一個 AI 工具帳號（ChatGPT、Claude、Gemini、Canva 擇一）<br>③ 你要賣的產品照片</p></div>
+    </div>
+
+    <h2 class="h3">新創做廣告，最常卡在這三個地方</h2>
+    <div class="grid g3">
+      <div class="card hot"><h3>卡點 1　不知道賣給誰</h3><p>只會勾興趣標籤，受眾越設越廣，錢花了卻找不到真正會買的人。</p></div>
+      <div class="card hot"><h3>卡點 2　素材產不出來</h3><p>沒有設計師、沒有預算，一個月才生得出一版，測試永遠跑不起來。</p></div>
+      <div class="card hot"><h3>卡點 3　燒了錢看不懂數據</h3><p>後台數字一大堆，不知道問題出在哪，只好憑感覺改。</p></div>
+    </div>
+    <div class="callout"><b>今天不教按鈕在哪裡（網路都查得到），只教兩件事：</b>投放前的決策邏輯，以及用 AI 把決策落地的速度。</div>
+
+    <h2 class="h3">今日課程地圖</h2>
+    <div class="tw"><table>
+      <thead><tr><th>時間</th><th>段落</th><th>主題</th><th>長度</th></tr></thead>
+      <tbody>
+        <tr><td>10:00</td><td><b>開場</b></td><td>燒錢原因：新創為什麼會把廣告費燒掉</td><td>15 分</td></tr>
+        <tr><td>10:15</td><td><b>第一關</b></td><td>受眾設定：先找對人，再談效率</td><td>30 分</td></tr>
+        <tr><td>10:45</td><td><b>第二關</b></td><td>素材規劃：AI 產十版，但要知道測什麼</td><td>30 分</td></tr>
+        <tr><td>11:15</td><td><b>第三關</b></td><td>預算配置：用有限的錢買最多資訊</td><td>25 分</td></tr>
+        <tr><td>11:40</td><td><b>第四關</b></td><td>數據判讀：看懂數字說什麼</td><td>15 分</td></tr>
+        <tr><td>11:55</td><td><b>收尾</b></td><td>檢核清單、7 天行動、Q&amp;A</td><td>5 分</td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted-note">上課形式：講授 40% ＋ 實機示範 30% ＋ 動手操作與討論 30%。</p>
+
+    <div class="poll" id="poll_lv"></div>
+
+    <h2 class="h3">暖身：一句話說出你的產品賣給誰 ✍️</h2>
+    <div class="callout warn"><b>限時 15 秒說完。</b>說得出「場景」的加分。填完全場都看得到，講師會挑幾位請你補充。</div>
+    <div class="fill">
+      <label for="w1">我的＿＿＿（產品或服務）</label>
+      <input id="w1" type="text" maxlength="40" placeholder="例如：即食雞胸肉">
+      <label for="w2">是賣給＿＿＿的人</label>
+      <input id="w2" type="text" maxlength="60" placeholder="例如：有健身習慣、每天加班到九點的通勤上班族">
+      <label for="w3">他們在＿＿＿的時候最需要它</label>
+      <input id="w3" type="text" maxlength="60" placeholder="例如：健身完回家、懶得開伙又不想吃泡麵">
+      <div class="hero-btns" style="justify-content:flex-start;margin-top:12px">
+        <button class="btn btn-primary btn-sm" id="warmSave" type="button">📣 送出，貼到全場牆上</button>
+        <button class="btn btn-ghost btn-sm" id="warmCopy" type="button">📋 複製這句話</button>
+      </div>
+      <p class="muted-note" id="warmStatus" style="margin-top:8px"></p>
+    </div>
+    <div class="vs">
+      <div class="col bad"><h4>✗ 還在用人口統計想</h4><ul>
+        <li>「賣給 25 到 35 歲的上班族女生」</li>
+        <li>「賣給對健康有興趣的人」</li>
+        <li>「大家都可以用啊」</li>
+      </ul></div>
+      <div class="col good"><h4>✓ 已經說出購買情境</h4><ul>
+        <li>「賣給每天加班到九點、回家只想 10 分鐘吃到熱食的通勤上班族」</li>
+        <li>「賣給剛開始健身、不懂補蛋白質的新手」</li>
+      </ul><p class="muted-note" style="margin-top:6px">差別在哪？右邊同時有<b>問題、場景、人</b>。素材知道要說什麼，平台也找得到他。</p></div>
+    </div>
+    <h3 class="h3">📣 全場的一句話<span class="pill-live">即時更新</span></h3>
+    <div class="wall" id="warmWall"></div>
+
+    <h2 class="h3">三種最常見的燒錢情境</h2>
+    <div class="tw"><table>
+      <thead><tr><th>情境</th><th>發生什麼</th><th>為什麼燒錢</th><th>該怎麼做</th></tr></thead>
+      <tbody>
+        <tr><td><b>一　受眾太廣</b></td><td>手工皂品牌把受眾設成 18 到 65 歲、興趣美妝，曝光很高，訂單幾乎是零</td><td>人太多太雜，系統拿不到有效的購買訊號</td><td>從「誰正在為什麼煩惱」縮小起點</td></tr>
+        <tr><td><b>二　素材沒有鉤子</b></td><td>影片前 3 秒是 Logo 動畫和品牌名，大部分人在第 2 秒就滑走</td><td>前 3 秒沒有給出「這跟我有關」的理由</td><td>開頭直接講痛點、結果或反差</td></tr>
+        <tr><td><b>三　太早放大預算</b></td><td>第 3 天出了 2 張訂單，日預算從 500 元拉到 5,000 元，成本馬上翻倍</td><td>樣本太少就下結論，大幅加碼又讓系統重新學習</td><td>數據夠了再分階段加碼</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2 class="h3">觀念校正：廣告不是流量開關，是假設驗證機器</h2>
+    <div class="vs">
+      <div class="col bad"><h4>✗ 流量開關思維</h4><p style="font-weight:800;margin:6px 0">投錢 → 等訂單 → 沒效就關掉</p><p class="muted-note">結論常常是「廣告沒用」，但其實什麼都沒學到。</p></div>
+      <div class="col good"><h4>✓ 假設驗證循環</h4><div class="flow" style="margin:4px 0"><span class="n">① 提出假設</span><span class="ar">→</span><span class="n">② 小額測試</span><span class="ar">→</span><span class="n">③ 讀懂數據</span><span class="ar">→</span><span class="n">④ 修正或放大</span></div><p class="muted-note">每一次投放，都在驗證一個假設：這群人，看到這個訊息，願不願意掏錢。</p></div>
+    </div>
+    <div class="flow">
+      <span class="n">受眾<br></span><span class="ar">→</span><span class="n">素材</span><span class="ar">→</span><span class="n">預算</span><span class="ar">→</span><span class="n">數據</span>
+    </div>
+    <div class="grid g4">
+      <div class="card"><h3>受眾</h3><p>決定「誰」看到</p></div>
+      <div class="card"><h3>素材</h3><p>決定他「會不會停下來」</p></div>
+      <div class="card"><h3>預算</h3><p>決定你「能買到多少資訊」</p></div>
+      <div class="card"><h3>數據</h3><p>告訴你「下一輪改哪裡」</p></div>
+    </div>
+
+    <div class="poll" id="poll_stuck"></div>
+    <div class="elf"><div class="ic">🚀</div><div class="t"><b>投放小教練｜喊話</b>先報到再投票，等一下四關的講解比重會照大家的答案調整。這題沒有標準答案。</div></div>
+  </div>
+</section>
+
+<!-- ===================== 第一關 ===================== -->
+<section class="tab-section" data-tab="p1"><div class="wrap">
+  <div class="sec-tag">第一關 · 10:15 到 10:45 · 30 分鐘</div>
+  <h2 class="sec-title">受眾設定：<span class="em">先找對人，再談效率</span></h2>
+
+  <h3 class="h3">為什麼「25 到 34 歲女性」不是一個受眾？</h3>
+  <p class="lead">同樣是 25 到 34 歲女性……</p>
+  <div class="grid g3">
+    <div class="card"><h3>新手媽媽 28 歲</h3><p><b>生活狀態</b>：剛生完第一胎<br><b>她在意</b>：安全、省時<br><b>打動她的話</b>：「單手 3 分鐘就能搞定」</p></div>
+    <div class="card"><h3>準備轉職的工程師 31 歲</h3><p><b>生活狀態</b>：下班後想學新技能<br><b>她在意</b>：效率、成長<br><b>打動她的話</b>：「下班 30 分鐘就能學會」</p></div>
+    <div class="card"><h3>健身中的業務 26 歲</h3><p><b>生活狀態</b>：每週健身 5 天<br><b>她在意</b>：體態、蛋白質<br><b>打動她的話</b>：「一包補足一餐蛋白質」</p></div>
+  </div>
+  <div class="callout"><b>人口統計只告訴你「她是誰」，購買情境才告訴你「她為什麼現在要買」。</b></div>
+
+  <h3 class="h3">受眾拆解法：問題 → 場景 → 人</h3>
+  <div class="grid g3">
+    <div class="card"><h3><span class="num">1</span>問題</h3><p>他遇到什麼困擾？想達成什麼結果？<br><b>例</b>：想吃得健康，但沒時間煮</p></div>
+    <div class="card"><h3><span class="num">2</span>場景</h3><p>困擾在什麼時候、什麼地方發生？什麼瞬間會想買？<br><b>例</b>：加班到九點、健身完回家</p></div>
+    <div class="card"><h3><span class="num">3</span>人</h3><p>誰最常處在這個場景？最後才回頭找年齡、職業、興趣<br><b>例</b>：有健身習慣的通勤上班族</p></div>
+  </div>
+  <p class="muted-note">示範產品：即食雞胸肉。<b>先有問題和場景，最後才是人。</b></p>
+
+  <h3 class="h3">新創適用的受眾三層結構</h3>
+  <div class="tw"><table>
+    <thead><tr><th>層</th><th>是誰</th><th>怎麼找</th><th>特性</th></tr></thead>
+    <tbody>
+      <tr><td><b>核心層</b></td><td>已經在找解方的人（需求明確）</td><td>搜尋關鍵字、網站訪客、互動過的人</td><td>量少、轉換率高，<b>預算優先給這裡</b></td></tr>
+      <tr><td><b>擴散層</b></td><td>有痛點但還沒意識到（需要教育）</td><td>興趣與行為受眾、內容型素材</td><td>量大、要先教育，核心層驗證後再擴</td></tr>
+      <tr><td><b>相似層</b></td><td>Lookalike 類似受眾</td><td>用顧客或轉換名單當來源，讓系統找相似的人</td><td>資料越乾淨越準，有足夠名單才啟用</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3 class="h3">類似受眾（Lookalike）什麼時候用？</h3>
+  <div class="tw"><table>
+    <thead><tr><th>項目</th><th>重點</th></tr></thead>
+    <tbody>
+      <tr><td><b>來源受眾門檻</b></td><td>至少 100 人（同一國家）才能建立；實務上建議 1,000 人以上，名單品質比數量重要</td></tr>
+      <tr><td><b>好的來源</b></td><td>已購買顧客、高價值或回購顧客、完成註冊或填表的名單</td></tr>
+      <tr><td><b>較弱的來源</b></td><td>粉專按讚、影片短暫觀看等淺層互動，購買訊號太弱</td></tr>
+      <tr><td><b>受眾大小</b></td><td>1% 最接近來源受眾；數字越大觸及越廣，但相似度越低</td></tr>
+      <tr><td><b>使用時機</b></td><td>核心層已跑出穩定轉換、手上有乾淨的顧客資料之後</td></tr>
+      <tr><td><b>新創提醒</b></td><td>剛上線還沒有名單時先別急，先用核心層累積第一批顧客</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted-note">資料出處見「🎁 帶走」分頁。</p>
+
+  <h3 class="h3">平台差異速覽：Meta、Google、LINE 怎麼選？</h3>
+  <div class="tw"><table>
+    <thead><tr><th>平台</th><th>導向</th><th>適合情境</th><th>新創怎麼用</th></tr></thead>
+    <tbody>
+      <tr><td><b>Meta（FB / IG）</b></td><td>興趣行為導向：系統找出可能感興趣的人</td><td>需求要被「看見」才會產生、視覺吸引力強的產品</td><td>擴散層主力，靠好素材喚醒需求</td></tr>
+      <tr><td><b>Google（搜尋 / 多媒體）</b></td><td>意圖搜尋導向：使用者主動輸入需求</td><td>已有明確需求、會被搜尋的產品或服務</td><td>核心層主力，先抓已經在找的人</td></tr>
+      <tr><td><b>LINE（廣告 / 官方帳號）</b></td><td>在地與再行銷：觸及廣，適合經營既有好友</td><td>在地店家、回購型商品、已有好友名單</td><td>再行銷與回購，把來過的人拉回來</td></tr>
+    </tbody>
+  </table></div>
+  <div class="flow"><span class="n lite">需求已經存在 → 先 Google</span><span class="n lite">需求要被喚醒 → 用 Meta</span><span class="n lite">顧客要回流 → 靠 LINE</span></div>
+
+  <h3 class="h3">AI 示範：受眾人物誌的提示詞結構</h3>
+  <div class="grid g4">
+    <div class="card"><h3>角色設定</h3><p>告訴 AI 它是誰<br><b>「你是有 10 年經驗的數位廣告策略顧問」</b></p></div>
+    <div class="card"><h3>產品資訊</h3><p>產品、價格、賣點、目前顧客<br><b>「即食雞胸肉，一包 69 元，微波 90 秒」</b></p></div>
+    <div class="card"><h3>輸出格式</h3><p>要什麼欄位、什麼形式<br><b>「用表格列出 3 組，含痛點、場景、疑慮」</b></p></div>
+    <div class="card"><h3>追問深化</h3><p>不要停在第一個答案<br><b>「哪一組最值得先測？為什麼？」</b></p></div>
+  </div>
+  <div class="hero-btns" style="justify-content:flex-start">
+    <button class="btn btn-primary btn-sm" type="button" onclick="goPrompt('p1')">📋 提示詞① 受眾人物誌</button>
+    <button class="btn btn-ghost btn-sm" type="button" onclick="goPrompt('p2')">📋 提示詞② 情境關鍵字反推</button>
+    <button class="btn btn-ghost btn-sm" type="button" onclick="goPrompt('p3')">📋 追問深化三連問</button>
+  </div>
+
+  <div class="callout bad"><b>⚠️ 提醒：AI 產出的是「假設」，不是事實。</b><br>AI 沒看過你的顧客，它是用大量常見模式推論出「看起來合理」的答案。把人物誌當成待驗證假設，每一組都先寫下你預期的結果（CTR 多少、誰會買），再用小預算測 3 到 7 天，留下真的有轉換的那一組。</div>
+  <div class="flow"><span class="n">AI 產出假設</span><span class="ar">→</span><span class="n">寫下預期結果</span><span class="ar">→</span><span class="n">小預算測 3 到 7 天</span><span class="ar">→</span><span class="n lite">留下贏家</span></div>
+
+  <h3 class="h3">✍️ 動手做：填寫你的四大受眾表（10 分鐘）</h3>
+  <p class="lead">下面可以直接打字，會自動存在這支手機裡。填完按「複製」就能貼到自己的筆記或試算表。</p>
+  <div class="mx"><table>
+    <thead><tr><th>受眾假設</th><th>① 他買你的動機</th><th>② 觸發場景</th><th>③ 他是誰</th><th>④ 在哪裡找到他</th><th>⑤ 他猶豫的地方</th><th>⑥ 競爭對手是誰</th><th>順序</th></tr></thead>
+    <tbody id="audBody"></tbody>
+  </table></div>
+  <div class="hero-btns" style="justify-content:flex-start">
+    <button class="btn btn-ghost btn-sm" id="audCopy" type="button">📋 複製我的受眾表</button>
+    <button class="btn btn-ghost btn-sm" id="audDemo" type="button">💡 帶入範例</button>
+    <button class="btn btn-ghost btn-sm" id="audClear" type="button">🧹 清空</button>
+    <button class="btn btn-primary btn-sm" type="button" onclick="goPrompt('p4')">📋 演練提示詞：人物誌轉成受眾表</button>
+    <button class="btn btn-mint btn-sm" type="button" onclick="goUpload('t1')">📤 繳交受眾表</button>
+  </div>
+  <p class="muted-note">流程：① 用提示詞①產出初稿 → ② 依顧客經驗修正 → ③ 標上測試順序 1、2、3 → ④ 講師邀請 2 位分享。<b>表格完成後，對照你自己的顧客經驗再修一次，AI 排的順序只是起點。</b></p>
+
+  <div class="poll" id="poll_q1"></div>
+  <div class="poll" id="poll_q2"></div>
+
+  <h3 class="h3">重點彙整</h3>
+  <div class="grid g3">
+    <div class="card"><h3><span class="num">1</span>受眾不是人口統計</h3><p>是「問題＋場景＋人」。先問困擾、再問場景，最後才回頭找年齡與興趣。</p></div>
+    <div class="card"><h3><span class="num">2</span>先核心，再擴散，有名單才做相似</h3><p>有限的預算先給需求最明確的人，驗證成功再往外擴。</p></div>
+    <div class="card"><h3><span class="num">3</span>AI 產出的人物誌是假設</h3><p>寫下預期結果，測 3 到 7 天，讓數據告訴你誰才是真的。</p></div>
+  </div>
+  <div class="card dk" style="margin-top:12px"><h3>💡 心得</h3><p>找對人，素材才有對象可以說話；找錯人，再好的素材都只是噪音。</p></div>
+</div></section>
+
+<!-- ===================== 第二關 ===================== -->
+<section class="tab-section" data-tab="p2"><div class="wrap">
+  <div class="sec-tag">第二關 · 10:45 到 11:15 · 30 分鐘</div>
+  <h2 class="sec-title">素材規劃：<span class="em">AI 讓你一次產出十版，但你要知道測什麼</span></h2>
+
+  <h3 class="h3">廣告素材的黃金結構</h3>
+  <div class="flow">
+    <span class="n" style="background:var(--amber)">鉤子 前 3 秒</span><span class="ar">→</span><span class="n">痛點共鳴</span><span class="ar">→</span><span class="n">解方</span><span class="ar">→</span><span class="n">信任證明</span><span class="ar">→</span><span class="n">CTA</span>
+  </div>
+  <div class="tw sm"><table>
+    <thead><tr><th>段落</th><th>要做到什麼</th><th>範例（即食雞胸肉）</th></tr></thead>
+    <tbody>
+      <tr><td><b>鉤子</b></td><td>讓他停下來的第一句話或第一個畫面</td><td>「加班到九點，晚餐又是泡麵？」</td></tr>
+      <tr><td><b>痛點共鳴</b></td><td>說出他心裡的那句話</td><td>「想吃健康，但真的沒力氣煮。」</td></tr>
+      <tr><td><b>解方</b></td><td>你的產品怎麼解決</td><td>「微波 90 秒，一餐蛋白質就搞定。」</td></tr>
+      <tr><td><b>信任證明</b></td><td>為什麼要相信你</td><td>真實顧客評價、檢驗報告</td></tr>
+      <tr><td><b>CTA</b></td><td>明確告訴他下一步</td><td>「首購組限時優惠，今晚下單」</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout"><b>鉤子決定他停不停，後面四步決定他買不買。</b></div>
+
+  <h3 class="h3">素材測試：一次只改一個變數</h3>
+  <div class="vs">
+    <div class="col bad"><h4>✗ 錯誤：三個一起改</h4>
+      <p class="muted-note">A＝標題甲＋圖片甲＋CTA 甲<br>B＝標題乙＋圖片乙＋CTA 乙</p>
+      <p style="margin-top:8px;font-weight:800;color:var(--red)">B 贏了，但不知道贏在標題、圖片還是 CTA。</p></div>
+    <div class="col good"><h4>✓ 正確：只改標題</h4>
+      <p class="muted-note">A＝標題甲＋圖片甲＋CTA 甲<br>B＝標題乙＋圖片甲＋CTA 甲<br>C＝標題丙＋圖片甲＋CTA 甲</p>
+      <p style="margin-top:8px;font-weight:800;color:var(--green)">知道哪個標題最好，下一輪保留它，再測圖片。</p></div>
+  </div>
+  <div class="flow"><span class="muted-note" style="font-weight:800">建議測試順序</span><span class="n">1. 訴求與鉤子</span><span class="ar">→</span><span class="n lite">2. 視覺</span><span class="ar">→</span><span class="n lite">3. CTA</span></div>
+  <p class="muted-note">影響最大的先測。</p>
+
+  <h3 class="h3">新創低成本素材來源</h3>
+  <div class="grid g4">
+    <div class="card"><h3>UGC 素材</h3><p>請顧客拍開箱、使用心得，真實感常常勝過精美設計。<br><b style="color:var(--amber)">注意</b>：先取得顧客授權</p></div>
+    <div class="card"><h3>創辦人出鏡</h3><p>說出「我為什麼做這個產品」，這是新創別人學不走的素材。<br><b style="color:var(--amber)">注意</b>：講故事，不要念稿</p></div>
+    <div class="card"><h3>客戶對話截圖</h3><p>LINE、私訊裡的好評與提問，就是現成的信任證明。<br><b style="color:var(--amber)">注意</b>：遮蔽個資、取得同意</p></div>
+    <div class="card"><h3>Before / After</h3><p>使用前後對比，一眼就看懂效果。<br><b style="color:var(--amber)">注意</b>：健康、美容類要留意廣告政策</p></div>
+  </div>
+
+  <h3 class="h3">版位規格與尺寸速查</h3>
+  <div class="tw"><table>
+    <thead><tr><th>版位</th><th>比例</th><th>建議尺寸（像素）</th><th>製作重點</th></tr></thead>
+    <tbody>
+      <tr><td><b>Meta 動態消息 Feed</b></td><td>1:1 或 4:5</td><td>1080×1080／1080×1350</td><td>4:5 在手機上佔的版面較大</td></tr>
+      <tr><td><b>Meta 限時動態 Stories</b></td><td>9:16</td><td>1080×1920</td><td>上方約 250px、下方約 280px 不放重要文字</td></tr>
+      <tr><td><b>Meta Reels</b></td><td>9:16</td><td>1080×1920</td><td>上方約 14%、下方約 35% 會被介面遮住</td></tr>
+      <tr><td><b>Google 多媒體（回應式）</b></td><td>1.91:1／1:1／9:16</td><td>1200×628／1200×1200／900×1600</td><td>多上傳幾種比例，讓系統自動組合</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout warn"><b>文案長度：</b>Meta 主要文字建議 125 字元內、標題 40 字元內，避免在手機上被截斷。</div>
+
+  <h3 class="h3">AI 素材工具地圖</h3>
+  <div class="tw"><table>
+    <thead><tr><th>用途</th><th>工具舉例</th><th>示範重點</th></tr></thead>
+    <tbody>
+      <tr><td><b>文案發想</b></td><td>ChatGPT／Gemini／Claude</td><td>用「角色＋受眾痛點＋語氣＋字數限制」寫出 3 種訴求</td></tr>
+      <tr><td><b>視覺生成</b></td><td>ChatGPT／Gemini／Canva</td><td>產出情境圖與含文字的圖卡，避免 AI 圖的廉價感</td></tr>
+      <tr><td><b>短影音</b></td><td>Gemini（Veo）、Descript、HeyGen、創流</td><td>腳本轉分鏡、自動字幕、口白生成</td></tr>
+      <tr><td><b>素材翻新</b></td><td>Canva 批次調整尺寸、AI 生成素材</td><td>一版設計快速產出多種版位</td></tr>
+    </tbody>
+  </table></div>
+  <div class="hero-btns" style="justify-content:flex-start">
+    <button class="btn btn-primary btn-sm" type="button" onclick="goPrompt('p5')">📋 ③ 廣告文案發想</button>
+    <button class="btn btn-ghost btn-sm" type="button" onclick="goPrompt('p6')">📋 ④ 素材改寫矩陣</button>
+    <button class="btn btn-ghost btn-sm" type="button" onclick="goPrompt('p7')">📋 ⑤ 視覺生成</button>
+    <button class="btn btn-ghost btn-sm" type="button" onclick="goPrompt('p8')">📋 ⑥ 短影音分鏡</button>
+    <button class="btn btn-ghost btn-sm" type="button" onclick="switchTab('tools')">🧰 工具箱裡有現成的</button>
+  </div>
+
+  <h3 class="h3">✍️ 動手做：填寫你的素材表（8 分鐘）</h3>
+  <p class="lead">三版只改訴求，產品賣點與 CTA 保持一致，這樣才測得出來是訴求的差別。</p>
+  <div class="mx"><table>
+    <thead><tr><th>版本</th><th>訴求</th><th>廣告標題（20 字內）</th><th>主文案（只寫 1 段）</th></tr></thead>
+    <tbody id="creBody"></tbody>
+  </table></div>
+  <div class="hero-btns" style="justify-content:flex-start">
+    <button class="btn btn-ghost btn-sm" id="creCopy" type="button">📋 複製我的素材表</button>
+    <button class="btn btn-primary btn-sm" type="button" onclick="goPrompt('p9')">📋 演練提示詞：素材表＋AI 模擬受眾互評</button>
+    <button class="btn btn-mint btn-sm" type="button" onclick="goUpload('t2')">📤 繳交素材表</button>
+  </div>
+  <div class="callout ok"><b>兩人一組互評：「哪一版讓你會停下來？為什麼？」</b><br>① 停得下來嗎（鉤子）　② 跟我有關嗎（痛點）　③ 想點進去嗎（CTA）</div>
+
+  <div class="poll" id="poll_q3"></div>
+  <div class="poll" id="poll_q4"></div>
+
+  <h3 class="h3">重點彙整</h3>
+  <div class="grid g3">
+    <div class="card"><h3><span class="num">1</span>素材黃金結構</h3><p>鉤子 → 痛點共鳴 → 解方 → 信任證明 → CTA，一路到底。</p></div>
+    <div class="card"><h3><span class="num">2</span>一次只改一個變數</h3><p>先測訴求與鉤子，再測視覺，最後測 CTA，測完才知道贏在哪。</p></div>
+    <div class="card"><h3><span class="num">3</span>AI 負責產量，你負責方向</h3><p>用提示詞一次產出多版，測什麼、留什麼由你決定。</p></div>
+  </div>
+  <div class="card dk" style="margin-top:12px"><h3>💡 心得</h3><p>AI 解決的是產量，方向要由你負責。</p></div>
+</div></section>
+
+<!-- ===================== 第三關 ===================== -->
+<section class="tab-section" data-tab="p3"><div class="wrap">
+  <div class="sec-tag">第三關 · 11:15 到 11:40 · 25 分鐘</div>
+  <h2 class="sec-title">預算配置：<span class="em">用有限的錢，買到最多的資訊</span></h2>
+
+  <h3 class="h3">新創預算心法：前期買資訊，後期買訂單</h3>
+  <div class="vs">
+    <div class="col"><h4>🧪 前期：買資訊</h4><ul>
+      <li><b>目的</b>：找出哪組受眾 × 哪版素材會贏</li>
+      <li><b>看什麼</b>：CTR、CPC、初步 CPA</li>
+      <li><b>心態</b>：輸掉的組合，也是有價值的資訊</li>
+    </ul></div>
+    <div class="col good"><h4>🛒 後期：買訂單</h4><ul>
+      <li><b>目的</b>：把錢集中在贏家，換成穩定訂單</li>
+      <li><b>看什麼</b>：CPA、ROAS</li>
+      <li><b>心態</b>：守住 CPA 天花板，逐步加碼</li>
+    </ul></div>
+  </div>
+  <div class="callout warn"><b>驗證期還沒結束就要求 ROAS，是新創最常見的焦慮來源。</b></div>
+
+  <h3 class="h3">驗證期預算怎麼抓：最小可判讀樣本量</h3>
+  <div class="tw sm"><table>
+    <thead><tr><th>層</th><th>判斷什麼</th><th>門檻</th></tr></thead>
+    <tbody>
+      <tr><td><b>曝光層</b></td><td>判斷素材吸不吸睛（看 CTR）</td><td>每版累積數千次曝光再判斷</td></tr>
+      <tr><td><b>點擊層</b></td><td>判斷受眾與到達頁（看 CVR）</td><td>每組累積約 100 次點擊再判斷</td></tr>
+      <tr><td><b>轉換層</b></td><td>判斷能不能賺錢（看 CPA）</td><td>Meta 說明：廣告組合約需 7 天內 50 次最佳化事件，才會結束學習期</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted-note">曝光與點擊門檻為實務經驗法則，請依產品客單價與流量調整。<b>預算不夠拿到 50 次購買？</b>可先改用較前段的事件（如加入購物車）做最佳化，或減少同時測試的組數。</p>
+
+  <h3 class="h3">常見誤區：預算太分散，每組都跑不出結果</h3>
+  <div class="vs">
+    <div class="col bad"><h4>✗ 15 組 × 每組 2,000 元</h4><p class="muted-note">每組只有零星點擊，全部「看起來差不多」。</p></div>
+    <div class="col good"><h4>✓ 4 組 × 每組 7,500 元</h4><p class="muted-note">每組都有足夠的數據，贏家看得出來。</p></div>
+  </div>
+  <div class="callout"><b>同樣 3 萬元，結論完全不同。</b>驗證期建議 3 到 5 組，是新創比較好操作的範圍。</div>
+
+  <h3 class="h3">三階段配置模型</h3>
+  <div class="grid g3">
+    <div class="card"><h3><span class="num">1</span>驗證期 第 1 到 2 週</h3><p>多組小額並行（建議 3 到 5 組）<br><b>目標</b>：找出贏家組合<br><b>看</b>：CTR、CPC、初步 CPA</p></div>
+    <div class="card"><h3><span class="num">2</span>放大期 第 3 到 4 週</h3><p>資源集中到贏家，逐步加碼；業界常見做法是每次約 20% 以內、隔幾天再調<br><b>目標</b>：避免學習期一直重置<br><b>看</b>：CPA、ROAS</p></div>
+    <div class="card"><h3><span class="num">3</span>穩定期 第 5 週起</h3><p>新客 70 到 80%、再行銷 20 到 30%<br><b>目標</b>：穩定獲利、擴大名單<br><b>看</b>：ROAS、回購率</p></div>
+  </div>
+
+  <h3 class="h3">出價策略：什麼時候用最低成本，什麼時候設上限？</h3>
+  <div class="tw"><table>
+    <thead><tr><th>策略</th><th>白話說明</th><th>適合時機</th><th>要注意</th></tr></thead>
+    <tbody>
+      <tr><td><b>最高數量</b><br>（舊稱最低成本）</td><td>在預算內盡量拿到最多成果</td><td>驗證期、還不知道合理成本時</td><td>成本會浮動，要盯緊 CPA</td></tr>
+      <tr><td><b>單次成果成本目標</b></td><td>讓平均成本貼近你設定的目標</td><td>已算出 CPA 天花板，想穩定放大</td><td>目標設太低，預算會花不出去</td></tr>
+      <tr><td><b>出價上限</b></td><td>每次競價都不超過你設的金額</td><td>毛利很薄、成本必須嚴格控制</td><td>需熟悉競價，曝光可能大幅下降</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout ok"><b>新創建議：</b>驗證期先用「最高數量」讓系統探索；放大期再用成本目標或出價上限，守住 CPA 天花板。</div>
+
+  <h3 class="h3">🧮 現場帶算：你可以接受的 CPA 天花板</h3>
+  <p class="lead">把你自己的數字填進去，下面會即時算。這是今天最該帶回去的一張表。</p>
+  <div class="calc">
+    <h4>📐 CPA 天花板試算</h4>
+    <div class="inrow">
+      <div><label for="cPrice">客單價（元）</label><input id="cPrice" type="number" inputmode="numeric" value="1200"></div>
+      <div><label for="cMargin">毛利率（%）</label><input id="cMargin" type="number" inputmode="numeric" value="50"></div>
+      <div><label for="cKeep">每單想保留利潤</label><input id="cKeep" type="number" inputmode="numeric" value="200"></div>
+      <div><label for="cOrders">目標訂單數</label><input id="cOrders" type="number" inputmode="numeric" value="50"></div>
+    </div>
+    <div class="out">
+      <div class="o"><b id="oGross">600</b><span>每單毛利＝損益兩平 CPA</span></div>
+      <div class="o"><b id="oCeil">400</b><span>CPA 天花板</span></div>
+      <div class="o"><b id="oBe">2.0</b><span>損益兩平 ROAS</span></div>
+      <div class="o"><b id="oTarget">3.0</b><span>目標 ROAS</span></div>
+      <div class="o"><b id="oBudget">20,000</b><span>所需廣告預算</span></div>
+    </div>
+    <div class="note" id="calcNote"></div>
+    <div class="hero-btns" style="justify-content:flex-start;margin-top:12px">
+      <button class="btn btn-mint btn-sm" id="calcCopy" type="button">📋 複製我的數字</button>
+      <button class="btn btn-light btn-sm" type="button" onclick="goPrompt('p10')">📋 ⑦ 用 AI 做預算模擬試算表</button>
+      <button class="btn btn-light btn-sm" type="button" onclick="goUpload('t3')">📤 繳交我的預算規劃</button>
+    </div>
+  </div>
+  <div class="tw sm"><table>
+    <thead><tr><th>步驟</th><th>算法</th><th>示範（客單 1,200、毛利 50%、保留 200、目標 50 單）</th></tr></thead>
+    <tbody>
+      <tr><td><b>1 每單毛利</b></td><td>客單價 × 毛利率</td><td>1,200 × 50% ＝ 600 元（超過 600 就虧錢）</td></tr>
+      <tr><td><b>2 CPA 天花板</b></td><td>每單毛利 － 想保留的利潤</td><td>600 － 200 ＝ 400 元（允許廣告花的上限）</td></tr>
+      <tr><td><b>3 ROAS 換算</b></td><td>客單價 ÷ CPA</td><td>損益兩平 1,200 ÷ 600 ＝ 2.0；目標 1,200 ÷ 400 ＝ 3.0</td></tr>
+      <tr><td><b>4 所需預算</b></td><td>目標訂單數 × CPA 天花板</td><td>50 × 400 ＝ 20,000 元</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted-note">回購型商品可用顧客終身價值（LTV）放寬天花板；現金流緊的新創，建議先用首購毛利計算。</p>
+
+  <div class="poll" id="poll_q5"></div>
+  <div class="poll" id="poll_q6"></div>
+
+  <h3 class="h3">重點彙整</h3>
+  <div class="grid g3">
+    <div class="card"><h3><span class="num">1</span>前期買資訊，後期買訂單</h3><p>驗證期的錢是學費，目標是找出贏家組合，不是立刻回本。</p></div>
+    <div class="card"><h3><span class="num">2</span>預算集中，每組才看得出結果</h3><p>驗證期 3 到 5 組，放大期逐步加碼，避免學習期一直重置。</p></div>
+    <div class="card"><h3><span class="num">3</span>先算 CPA 天花板，再談投放</h3><p>客單價 × 毛利率，扣掉想保留的利潤，就是廣告花費的上限。</p></div>
+  </div>
+  <div class="card dk" style="margin-top:12px"><h3>💡 心得</h3><p>預算不是越省越好，而是每一塊錢都要換回一個答案。</p></div>
+</div></section>
+
+<!-- ===================== 第四關 ===================== -->
+<section class="tab-section" data-tab="p4"><div class="wrap">
+  <div class="sec-tag">第四關 · 11:40 到 11:55 · 15 分鐘</div>
+  <h2 class="sec-title">數據判讀：<span class="em">看懂數字在說什麼</span></h2>
+
+  <h3 class="h3">只看 4 個核心指標就夠</h3>
+  <div class="grid g4">
+    <div class="card"><h3>CTR 點擊率</h3><p><b>點擊 ÷ 曝光</b><br>告訴你：素材有沒有鉤子、受眾對不對</p></div>
+    <div class="card"><h3>CPC 單次點擊成本</h3><p><b>花費 ÷ 點擊</b><br>告訴你：買到一次關注要多少錢</p></div>
+    <div class="card"><h3>CVR 轉換率</h3><p><b>轉換 ÷ 點擊</b><br>告訴你：到達頁接不接得住</p></div>
+    <div class="card"><h3>ROAS 廣告投報率</h3><p><b>營收 ÷ 花費</b><br>告訴你：這筆廣告到底有沒有賺</p></div>
+  </div>
+  <div class="callout"><b>另外記住 CPA（每次轉換成本）＝ 花費 ÷ 轉換</b>，拿來跟第三關算出的 CPA 天花板比較。</div>
+
+  <h3 class="h3">指標因果鏈：問題出在哪一段，一算就知道</h3>
+  <div class="vs">
+    <div class="col"><h4 style="font-size:1.25rem;text-align:center;color:var(--teal)">CPA ＝ CPC ÷ CVR</h4><p class="muted-note">CPC 受素材與受眾影響（同樣的曝光成本下，CTR 越高，CPC 越便宜）；CVR 受到達頁影響。</p></div>
+    <div class="col"><h4 style="font-size:1.25rem;text-align:center;color:var(--teal)">ROAS ＝ 客單價 ÷ CPA</h4><p class="muted-note">想提高 ROAS：降低 CPA，或提高客單價（加購、組合方案）。</p></div>
+  </div>
+
+  <h3 class="h3">🩺 現場診斷器：把你的數字丟進來</h3>
+  <p class="lead">填 CPC 與 CVR，立刻算出 CPA 與 ROAS，並告訴你問題卡在哪一段。</p>
+  <div class="calc">
+    <h4>🔍 漏斗診斷器</h4>
+    <div class="inrow">
+      <div><label for="dCpc">CPC 單次點擊成本</label><input id="dCpc" type="number" inputmode="decimal" value="10"></div>
+      <div><label for="dCvr">CVR 轉換率（%）</label><input id="dCvr" type="number" inputmode="decimal" value="2"></div>
+      <div><label for="dPrice">客單價（元）</label><input id="dPrice" type="number" inputmode="numeric" value="1200"></div>
+      <div><label for="dCeil">CPA 天花板（元）</label><input id="dCeil" type="number" inputmode="numeric" value="400"></div>
+    </div>
+    <div class="out">
+      <div class="o"><b id="dCpa">500</b><span>目前 CPA</span></div>
+      <div class="o"><b id="dRoas">2.4</b><span>目前 ROAS</span></div>
+      <div class="o"><b id="dGap">-100</b><span>離天花板</span></div>
+      <div class="o"><b id="dNeed">2.5%</b><span>CVR 要做到</span></div>
+    </div>
+    <div class="note" id="dNote"></div>
+  </div>
+  <div class="tw sm"><table>
+    <thead><tr><th>情況</th><th>CPC</th><th>CVR</th><th>CPA</th><th>ROAS</th><th>判斷</th></tr></thead>
+    <tbody>
+      <tr><td><b>現況</b></td><td>10 元</td><td>2%</td><td>500 元</td><td>2.4</td><td style="color:var(--red);font-weight:800">高於天花板 400，未達標</td></tr>
+      <tr><td><b>改善到達頁後</b></td><td>10 元</td><td>2.5%</td><td>400 元</td><td>3.0</td><td style="color:var(--green);font-weight:800">剛好達到目標 ROAS 3.0</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted-note">延續第三關的示範：客單價 1,200 元、CPA 天花板 400 元、目標 ROAS 3.0。</p>
+
+  <h3 class="h3">漏斗診斷法：症狀 → 問題 → 處理</h3>
+  <div class="tw"><table>
+    <thead><tr><th>症狀</th><th>問題可能在</th><th>優先處理</th></tr></thead>
+    <tbody>
+      <tr><td><b>曝光高、CTR 低</b></td><td>素材沒有鉤子，或受眾不對</td><td>換素材、縮小受眾</td></tr>
+      <tr><td><b>CTR 高、CVR 低</b></td><td>到達頁承接失敗</td><td>改到達頁，對齊廣告的承諾</td></tr>
+      <tr><td><b>CVR 正常、ROAS 低</b></td><td>客單價或成本結構</td><td>加購、組合方案，提高客單價</td></tr>
+      <tr><td><b>一開始好、後來變差</b></td><td>素材疲乏</td><td>素材輪替，準備新鉤子</td></tr>
+    </tbody>
+  </table></div>
+  <div class="flow"><span class="muted-note" style="font-weight:800">檢查順序</span><span class="n">先看 CTR</span><span class="ar">→</span><span class="n lite">再看 CVR</span><span class="ar">→</span><span class="n lite">最後看 ROAS</span></div>
+
+  <h3 class="h3">什麼時候該關掉一組廣告？三個停損訊號</h3>
+  <div class="grid g3">
+    <div class="card hot"><h3>✋ 訊號 1</h3><p>花費已達 CPA 天花板的 2 到 3 倍，仍然沒有轉換<br><b>怎麼做</b>：關掉，或換一組素材重測</p></div>
+    <div class="card hot"><h3>✋ 訊號 2</h3><p>學習期結束後，CPA 持續高於天花板，換過素材也沒改善<br><b>怎麼做</b>：回頭檢查受眾與到達頁</p></div>
+    <div class="card hot"><h3>✋ 訊號 3</h3><p>頻率持續升高、CTR 連續下滑、成本一路上升<br><b>怎麼做</b>：素材疲乏，換上新素材</p></div>
+  </div>
+  <div class="callout warn"><b>停損前先確認兩件事：</b>數據量夠不夠？是不是剛改過設定、還在學習期？（以上為實務經驗法則）</div>
+
+  <div class="hero-btns" style="justify-content:flex-start">
+    <button class="btn btn-primary" type="button" onclick="goPrompt('p11')">📋 ⑧ 數據診斷報告＋下一步建議</button>
+    <button class="btn btn-ghost" type="button" onclick="switchTab('tools')">🧰 貼 CSV 就能診斷的工具</button>
+  </div>
+
+  <div class="poll" id="poll_q7"></div>
+  <div class="poll" id="poll_q8"></div>
+
+  <h3 class="h3">重點彙整</h3>
+  <div class="grid g3">
+    <div class="card"><h3><span class="num">1</span>四個指標串成一條因果鏈</h3><p>CPA ＝ CPC ÷ CVR，ROAS ＝ 客單價 ÷ CPA，問題出在哪段一算就知道。</p></div>
+    <div class="card"><h3><span class="num">2</span>漏斗由上往下診斷</h3><p>CTR → CVR → ROAS，找到第一個出問題的地方，優先處理那一段。</p></div>
+    <div class="card"><h3><span class="num">3</span>AI 幫你整理與建議</h3><p>用固定提示詞產出診斷報告，最後拍板的是你的 CPA 天花板。</p></div>
+  </div>
+  <div class="card dk" style="margin-top:12px"><h3>💡 心得</h3><p>數據不是成績單，是下一輪假設的線索。</p></div>
+</div></section>
+
+<!-- ===================== 提示詞 ===================== -->
+<section class="tab-section" data-tab="prompts"><div class="wrap">
+  <div class="sec-tag">照抄就能用 · 共 11 段</div>
+  <h2 class="sec-title">AI 提示詞模板包，<span class="em">一鍵複製</span>直接貼 📋</h2>
+  <div class="callout"><b>用法：</b>按「複製」→ 開 ChatGPT、Claude 或 Gemini → 貼上 → 把「＿＿＿」換成自己的產品資訊。<br><b>四個結構：</b>角色設定 ＋ 產品資訊 ＋ 輸出格式 ＋ 追問深化。結構越完整，AI 越不會給你空泛的答案。</div>
+  <div class="hero-btns" style="justify-content:flex-start;margin-bottom:6px">
+    <button class="btn btn-ghost btn-sm pfilter on" data-pf="all" type="button">全部 11 段</button>
+    <button class="btn btn-ghost btn-sm pfilter" data-pf="a" type="button">① 受眾</button>
+    <button class="btn btn-ghost btn-sm pfilter" data-pf="b" type="button">② 素材</button>
+    <button class="btn btn-ghost btn-sm pfilter" data-pf="c" type="button">③ 預算</button>
+    <button class="btn btn-ghost btn-sm pfilter" data-pf="d" type="button">④ 數據</button>
+    <button class="btn btn-mint btn-sm" id="copyAll" type="button">📄 一次複製全部 11 段</button>
+    <button class="btn btn-ghost btn-sm" id="printPrompts" type="button">🖨️ 列印／存 PDF</button>
+  </div>
+  <div id="promptHost"></div>
+</div></section>
+
+<!-- ===================== 工具 ===================== -->
+<section class="tab-section" data-tab="tools"><div class="wrap">
+  <div class="sec-tag">課堂工具箱</div>
+  <h2 class="sec-title">四關各自對應的 <span class="em">現成工具</span> 🧰</h2>
+  <div class="callout"><b>這些是講師自己做的免費工具站「電商營運工具箱」</b>（ecom.atmarketing.tw），不用安裝、開了就能用。下面依今天的四關分好，卡住哪一關就點哪一關。<br><span class="muted-note">部分進階工具需要免費註冊或 PRO 方案，點進去會標示。</span></div>
+
+  <h3 class="h3">① 受眾設定：把人物誌變成後台設定得出來的條件</h3>
+  <div class="toolgrid" id="toolA"></div>
+  <h3 class="h3">② 素材規劃：鉤子、文案、分鏡、情境圖</h3>
+  <div class="toolgrid" id="toolB"></div>
+  <h3 class="h3">③ 預算配置：投放前先算划不划算</h3>
+  <div class="toolgrid" id="toolC"></div>
+  <h3 class="h3">④ 數據判讀：貼 CSV，讓 AI 告訴你砍哪一組</h3>
+  <div class="toolgrid" id="toolD"></div>
+  <h3 class="h3">AI 與製作工具</h3>
+  <div class="toolgrid" id="toolE"></div>
+</div></section>
+
+<!-- ===================== 上傳 ===================== -->
+<section class="tab-section" data-tab="upload"><div class="wrap">
+  <div class="sec-tag">動手做成果</div>
+  <h2 class="sec-title">把你填好的表 <span class="em">交上來</span> 📤</h2>
+  <div class="callout"><b>交了講師才看得到，現場會挑幾份一起拆。</b>可以打字，也可以截圖上傳。每一次上傳都會保留，交好幾版也沒關係。<br><b style="color:#c0392b">⚠️ 截圖前先遮掉客戶姓名、電話與訂單編號。</b></div>
+  <div id="whoBox"></div>
+  <div class="up">
+    <label class="lb2" for="subTask">要交哪一份 *</label>
+    <select id="subTask"></select>
+    <div class="muted-note" id="taskHint" style="margin-top:6px"></div>
+    <label class="lb2">用什麼交？</label>
+    <div class="modeseg" id="subMode"><button type="button" data-m="text" class="on">📝 文字</button><button type="button" data-m="image">🖼️ 圖片</button></div>
+    <div id="subTextWrap" style="margin-top:9px">
+      <div style="display:flex;justify-content:flex-end;margin-bottom:6px"><button class="btn btn-ghost btn-sm" id="tplBtn" type="button">📋 套用這題的範本</button></div>
+      <textarea id="subText" placeholder="把你的成果貼在這裡，或先按「套用這題的範本」照格式填"></textarea>
+    </div>
+    <div id="subImgWrap" style="margin-top:9px;display:none">
+      <div class="dropz" id="dropz">📷 點這裡選一張圖片上傳<br><small>手機截圖、AI 產出的圖都可以（10MB 內）<br>⚠️ 有客戶個資的畫面請先遮掉</small></div>
+      <input id="subFile" type="file" accept="image/*" style="display:none">
+    </div>
+    <div class="hero-btns" style="justify-content:flex-start;margin-top:14px"><button class="btn btn-primary" id="subBtn" type="button">🚀 送出這一版</button></div>
+    <p class="muted-note" id="subStatus">選好題目就能送出，交幾版都會保留。</p>
+  </div>
+
+  <h3 class="h3" id="subListTitle">我的上傳紀錄</h3>
+  <div id="subList"><p class="muted-note">報到後選好題目，這裡會顯示你交過的版本。</p></div>
+
+  <h3 class="h3">👀 全場都交了什麼<span class="pill-live">即時更新</span></h3>
+  <div id="allSubs"><p class="muted-note">載入中…</p></div>
+</div></section>
+
+<!-- ===================== 帶走 ===================== -->
+<section class="tab-section" data-tab="done"><div class="wrap">
+  <div class="sec-tag">收尾 · 投放前逐項確認</div>
+  <h2 class="sec-title">一頁式總結：<span class="em">四關檢核清單</span> ✅</h2>
+  <p class="lead">勾起來會存到後台，也可以列印帶走。開跑前逐項確認，少一項就先別按發布。</p>
+  <div id="chkHost"></div>
+
+  <h3 class="h3">接下來 7 天，你只要做這 3 件事</h3>
+  <div class="grid g3">
+    <div class="card hot"><h3>第 1 到 2 天</h3><p><b>完成四大受眾表</b><br>選出 2 到 3 組優先測試的受眾，寫下每組的預期結果。</p></div>
+    <div class="card hot"><h3>第 3 到 4 天</h3><p><b>做出 3 版素材</b><br>用提示詞③④產出，三版只改一個變數，尺寸對齊版位。</p></div>
+    <div class="card hot"><h3>第 5 到 7 天</h3><p><b>小預算開跑驗證期</b><br>先算好 CPA 天花板再開跑；第 7 天用提示詞⑧看第一份數據。</p></div>
+  </div>
+  <div class="callout ok"><b>第 7 天你會拿到的，不一定是訂單，而是「下一輪該怎麼改」的答案。</b></div>
+
+  <label class="lb2" for="commitText">我回去的第一件事（越具體越好）</label>
+  <textarea id="commitText" placeholder="例：今晚把四大受眾表填完，明天用提示詞③產出三版文案，週五開跑 4 組各 500 元"></textarea>
+  <div class="hero-btns" style="justify-content:flex-start;margin-top:10px">
+    <button class="btn btn-primary" id="saveCommit" type="button">💾 存起來</button>
+    <button class="btn btn-ghost" id="printCommit" type="button">🖨️ 列印／存 PDF</button>
+    <button class="btn btn-ghost" id="shareBtn" type="button">🔗 分享這一頁</button>
+  </div>
+  <p class="muted-note" id="commitStatus" style="margin-top:8px"></p>
+
+  <h3 class="h3">學員資源包</h3>
+  <div class="tw sm"><table>
+    <thead><tr><th>項目</th><th>內容</th><th>在哪裡</th></tr></thead>
+    <tbody>
+      <tr><td><b>AI 提示詞模板包</b></td><td>受眾、文案、視覺、預算、數據診斷，共 11 段</td><td><a href="#" onclick="switchTab('prompts');return false;">📋 提示詞分頁</a></td></tr>
+      <tr><td><b>廣告投放前檢核表</b></td><td>四關逐項確認，可列印</td><td>本頁上方</td></tr>
+      <tr><td><b>預算試算</b></td><td>CPA 天花板、ROAS、所需預算</td><td><a href="#" onclick="switchTab('p3');return false;">③ 預算分頁</a></td></tr>
+      <tr><td><b>素材測試紀錄表</b></td><td>三版只改訴求，追蹤每組變因</td><td><a href="#" onclick="switchTab('p2');return false;">② 素材分頁</a></td></tr>
+      <tr><td><b>工具箱</b></td><td>四關對應的現成工具</td><td><a href="#" onclick="switchTab('tools');return false;">🧰 工具分頁</a></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3 class="h3">資料出處</h3>
+  <ul class="srcs" id="srcList"></ul>
+  <p class="muted-note">曝光與點擊門檻、停損訊號、加碼幅度等為實務經驗法則，已於課程中標註。案例數據以出處文章刊登時間為準。</p>
+
+  <div class="card dk" style="margin-top:18px"><h3>🙋 Q&amp;A：把你的產品和卡點丟出來，我們現場一起拆</h3><p><b>何佳勳（小圭老師）</b>｜圭話行銷股份有限公司 創辦人<br>官網：atmarketing.tw　Threads：@chia.hsun301<br>自建免費 AI 工具站「電商營運工具箱」ecom.atmarketing.tw</p></div>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div><b>從流量到訂單：AI 助攻的新創廣告投放攻略</b>｜主辦 桃園市政府青年事務局｜講師 何佳勳（小圭老師）· 圭話行銷股份有限公司</div>
+    <div class="fl">
+      <a href="https://atmarketing.tw/" target="_blank" rel="noopener" data-own="1">圭話行銷官網</a>
+      <a href="https://ecom.atmarketing.tw/" target="_blank" rel="noopener" data-own="1">電商營運工具箱</a>
+      <a href="https://www.threads.net/@chia.hsun301" target="_blank" rel="noopener">Threads @chia.hsun301</a>
+      <a href="#" onclick="switchTab('tools');return false;">課堂工具箱</a>
+    </div>
+    <div class="muted-note" style="color:#9ec4bf;margin-top:10px">本頁會記錄：暱稱、產業、產品一句話、投票選項、受眾表與素材表內容、檢核清單與你上傳的成果。上傳的內容設計成不可修改刪除（保留多版紀錄），課後由講師統一匯出並清除。本站使用 Google Analytics 與 Meta Pixel 記錄瀏覽行為。請勿上傳含客戶個資的內容。</div>
+  </div>
+</footer>
+
+<div class="hud" id="hud" title="我的進度"><div class="bar"><i id="hudBar"></i></div><span class="gp" id="hudGp">👋 <small id="hudGpSub">點我報到</small></span></div>
+
+<div class="overlay" id="regOverlay" role="dialog" aria-modal="true" aria-labelledby="regTitle"><div class="modal">
+  <h2 id="regTitle">🙋 學員報到</h2>
+  <p class="sub">填完才能投票、交作業與看全場的答案。資料只用在今天的課堂上。</p>
+  <label for="regNick">暱稱或品牌名 *</label>
+  <input id="regNick" type="text" maxlength="20" placeholder="例如：小圭 或 原味千尋">
+  <label for="regBiz">你賣什麼（選填，一句話）</label>
+  <input id="regBiz" type="text" maxlength="40" placeholder="例如：手工冷製皂、線上課程、SaaS 工具">
+  <label for="regStage">目前階段（選填）</label>
+  <select id="regStage">
+    <option value="">請選擇</option>
+    <option>還沒開始賣</option>
+    <option>剛上線，月營收 10 萬以內</option>
+    <option>月營收 10 到 50 萬</option>
+    <option>月營收 50 萬以上</option>
+    <option>我是服務業／B2B</option>
+  </select>
+  <div class="err" id="regErr">請填暱稱</div>
+  <button class="btn btn-primary" style="width:100%;justify-content:center;margin-top:14px" id="regBtn" type="button">開始 ▶</button>
+  <a class="skip" href="#" id="regSkip">先逛逛，等等再報到</a>
+</div></div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="printCard"></div>
+
+<script>
+(function(){
+  'use strict';
+  /* ---------- 設定 ---------- */
+  var SUPA_URL='https://dpglkagtzdwiovzbtase.supabase.co';
+  var KEY='sb_publishable_Tuj9p4DXvO-jEqVcBnumTg_TqZ1NnRu';
+  var COURSE='startup-ads-workshop', STORE='startupads1014_v1', BUCKET='lw-workshop';
+  var UTM='utm_source=startup-ads-workshop&utm_medium=workshop&utm_campaign=startup-ads-1014';
+  function todayStr(){var d=new Date();return d.getFullYear()+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+('0'+d.getDate()).slice(-2);}
+  var COHORT=(new URLSearchParams(location.search).get('c')||'').trim()||todayStr();
+  function H(){return {apikey:KEY,Authorization:'Bearer '+KEY};}
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[c];});}
+  function siteUTM(u){ if(!/^https?:\/\/[^/]*(atmarketing\.tw|atmtut\.com)/.test(u)) return u; return u+(u.indexOf('?')>=0?'&':'?')+UTM; }
+  function track(n,p){try{if(window.gtag)gtag('event',n,p||{});}catch(e){}}
+  function nf(n){return (Math.round(n*100)/100).toLocaleString('en-US');}
+  async function fetchT(url,opt,ms){
+    opt=opt||{}; var c=new AbortController(), t=setTimeout(function(){c.abort();},ms||12000);
+    try{ return await fetch(url,Object.assign({},opt,{signal:c.signal})); } finally{ clearTimeout(t); }
+  }
+
+  /* ---------- 提示詞 11 段 ---------- */
+  var PROMPTS=[
+    {id:'p1',g:'a',n:'①',t:'受眾人物誌 Persona',src:'簡報 p.21',b:
+'你是一位有 10 年經驗的數位廣告策略顧問，專門協助新創品牌找到第一批顧客。\n\n【我的產品】\n產品名稱：＿＿＿　售價：＿＿＿元\n主要賣點：＿＿＿\n目前顧客大概是誰：＿＿＿（還沒有顧客就寫「尚無」）\n\n【請你做的事】\n請用「問題 → 場景 → 人」的邏輯，拆出 3 組可以用廣告測試的受眾人物誌。\n\n【輸出格式】用表格呈現，欄位包含：\n1. 人物誌名稱（一句話描述）　2. 他遇到的問題　3. 觸發購買的場景\n4. 他是誰（年齡區間、職業、生活型態）　5. 購買疑慮　6. 最能打動他的一句話\n\n最後請建議哪一組最值得先測試，並說明理由。',
+      tip:'把＿＿＿換成你的產品資訊；資訊越具體，人物誌越準。有顧客評價或常見提問，一起貼進去。產出後一定要接著追問。'},
+    {id:'p2',g:'a',n:'②',t:'情境關鍵字反推',src:'簡報 p.22',b:
+'延續上面的人物誌，針對第一優先的「＿＿＿」這一組：\n\n1. 列出他在 3 個不同情境下，會在 Google 或 YouTube 搜尋的關鍵字，每個情境 5 個\n2. 標註每個關鍵字是「已經在找解方」還是「只是在查問題」\n3. 列出他在 Facebook、Instagram 上可能關注的興趣主題 5 個\n\n請用表格呈現。',
+      tip:'關鍵字給 Google 搜尋廣告用，興趣主題給 Meta 受眾設定用。'},
+    {id:'p3',g:'a',n:'③',t:'追問深化三連問',src:'簡報 p.22',b:
+'追問 1：這 3 組人物誌裡，哪一組最可能被我高估？請直接指出風險。\n\n追問 2：第一優先的那一組，下單前最可能問哪 5 個問題？\n\n追問 3：他會用什麼理由說服自己「先不要買」？',
+      tip:'不要停在第一個答案。這三問會逼 AI 從「附和你」變成「挑戰你」。'},
+    {id:'p4',g:'a',n:'演練',t:'把人物誌整理成四大受眾表',src:'簡報 p.25',b:
+'請把上面的 3 組人物誌，整理成「四大受眾表」：\n欄位依序為：受眾假設名稱｜①他買你的動機｜②觸發場景｜③他是誰｜④在哪裡找到他（平台＋關鍵字或興趣）｜⑤他猶豫的地方｜⑥競爭對手是誰｜測試順序\n\n【測試順序的判斷標準】\n1. 需求越明確、越接近購買的，排越前面\n2. 我的預算有限（每月約＿＿＿元），請優先排出最容易在 7 天內看到成效的組合\n3. 每一組請用一句話說明排序理由\n\n【格式要求】\n每一格控制在 20 字以內，方便我直接貼進簡報或試算表。',
+      tip:'表格完成後，對照你自己的顧客經驗再修一次。AI 排的順序只是起點。'},
+    {id:'p5',g:'b',n:'④',t:'廣告文案發想（3 種訴求方向）',src:'簡報 p.37',b:
+'你是一位擅長社群廣告的資深文案，風格精準、不浮誇。\n\n【產品】＿＿＿（一句話說明產品與價格）\n【受眾】＿＿＿（貼上四大受眾表中，第一優先的那一組）\n【受眾痛點】＿＿＿\n【語氣】＿＿＿（例如：像朋友聊天、專業可信、幽默）\n【平台】Facebook／Instagram 動態消息\n\n請寫出 3 種不同訴求方向的廣告文案，每一種包含：\n1. 鉤子標題：20 字以內，前 5 個字就要讓人停下來\n2. 主文案：80 到 120 字，依序寫出痛點共鳴、解方、信任證明\n3. CTA：10 字以內\n\n最後用一句話說明每一種訴求適合測試的理由。',
+      tip:'語氣不確定時，請 AI 先各寫一版給你挑。把真實顧客評價貼進去，信任證明會更具體。不滿意就追問：「第 2 版的鉤子再更直接一點」。'},
+    {id:'p6',g:'b',n:'⑤',t:'素材改寫矩陣（同一賣點 × 三種情緒）',src:'簡報 p.38',b:
+'我的產品賣點是：＿＿＿\n目標受眾是：＿＿＿\n\n請用「同一個賣點 × 三種情緒訴求」做一張素材改寫矩陣：\n1. 恐懼訴求：如果不解決，會失去什麼或發生什麼\n2. 嚮往訴求：解決之後，生活會變成什麼樣子\n3. 理性訴求：用數字、比較、證據說服\n\n【每一種訴求請各寫】\n廣告標題 2 版（各 20 字以內）、主文案 1 段（100 字以內）、建議的畫面描述 1 段（給設計或 AI 生圖使用）\n\n【輸出格式】\n用表格輸出，欄位為：訴求類型｜標題 A｜標題 B｜主文案｜畫面描述',
+      tip:'三種訴求只改情緒角度，產品賣點與 CTA 保持一致，方便做 A/B 測試。'},
+    {id:'p7',g:'b',n:'⑥',t:'視覺生成（情境圖、含文字圖卡）',src:'簡報 p.39',b:
+'請幫我生成一張 Instagram 動態消息廣告圖，比例 4:5。\n\n【畫面主角】＿＿＿（例如：我上傳的產品照片，放在辦公桌上）\n【使用情境】＿＿＿（例如：晚上九點的辦公室，桌燈亮著）\n【受眾感受】讓上班族一看就覺得「這就是我」\n【風格】真實生活感的攝影風格，自然光，不要過度光滑的 3D 質感\n【畫面文字】主標「＿＿＿」，放在畫面上方三分之一，字體清楚好讀\n【留白】下方保留 20% 空間給價格與 CTA\n\n請避免：塑膠感皮膚、過度飽和的顏色、畫面中出現多餘文字或錯字。',
+      tip:'上傳自己的產品照當參考，請 AI 保留產品外觀。描述真實情境，不要只寫「高質感」。文字較多時改用 Canva 後製排版。一次生 3 張，挑最自然的。'},
+    {id:'p8',g:'b',n:'⑦',t:'短影音腳本轉分鏡',src:'簡報 p.40',b:
+'請把下面的廣告文案，改寫成 15 秒的直式短影音（9:16）腳本：\n＿＿＿（貼上文案發想產出的文案）\n\n【輸出格式】\n用表格輸出，欄位為：秒數｜畫面｜口白／字幕｜備註\n\n【要求】\n1. 0 到 3 秒是鉤子，畫面與字幕要直接講痛點\n2. 字幕每句 12 字以內\n3. 重要文字避開畫面上方 14% 與下方 35%（會被介面遮住）\n4. 最後 3 秒放 CTA',
+      tip:'分鏡完成後，可搭配 Gemini（Veo）、Descript、HeyGen 或創流製作字幕與口白。'},
+    {id:'p9',g:'b',n:'演練',t:'素材表 ＋ AI 模擬受眾互評',src:'簡報 p.42',b:
+'請根據我的產品與受眾，填寫一張「素材表」：\n產品：＿＿＿\n受眾：＿＿＿（貼上四大受眾表中，第一優先的那一組）\n\n【表格欄位】\n版本｜訴求類型（恐懼／嚮往／理性）｜廣告標題（20 字內）｜主文案（100 字內）\n請產出 3 個版本，三版只改訴求，CTA 統一為「＿＿＿」。\n\n【完成後請扮演我的目標受眾，用 1 到 5 分替每一版打分】\n1. 滑到時會不會停下來\n2. 看完覺得跟自己有沒有關\n3. 想不想點進去\n\n最後說明哪一版最值得先測，以及最弱的一版該怎麼改。',
+      tip:'AI 的評分只是參考，同學互評與真實投放數據才是最後的裁判。'},
+    {id:'p10',g:'c',n:'⑧',t:'用 AI 建立預算模擬試算表',src:'簡報 p.55',b:
+'你是一位熟悉電商廣告的財務分析師，請幫我設計一張 Google 試算表的「廣告預算模擬表」。\n\n【輸入欄位】（我會自己填）\n客單價、毛利率、每單想保留的利潤、目標訂單數、驗證期天數、驗證期組數\n\n【請用公式自動計算】\n1. 每單毛利 ＝ 客單價 × 毛利率\n2. CPA 天花板 ＝ 每單毛利 減去 每單想保留的利潤\n3. 損益兩平 ROAS ＝ 客單價 ÷ 每單毛利\n4. 目標 ROAS ＝ 客單價 ÷ CPA 天花板\n5. 所需廣告預算 ＝ 目標訂單數 × CPA 天花板\n6. 驗證期每組每日預算 ＝ 驗證期預算 ÷ 組數 ÷ 天數（驗證期預算預設為總預算的 30%）\n\n請告訴我每個欄位放在哪一格、每一格的 Google 試算表公式，\n並用「客單價 1,200 元、毛利率 50%、保留 200 元、目標 50 單、驗證 14 天、4 組」帶入一次讓我核對。',
+      tip:'要快的話，直接用這一頁的 CPA 天花板試算；要留底、要分享給夥伴，再請 AI 幫你做成試算表。'},
+    {id:'p11',g:'d',n:'⑨',t:'數據診斷報告 ＋ 下一步建議',src:'簡報 p.66',b:
+'你是一位資深廣告投手，請根據我貼上的廣告後台數據，產出「診斷報告＋下一步建議」。\n\n【我的商業條件】\n客單價：＿＿＿元　毛利率：＿＿＿%　CPA 天花板：＿＿＿元\n\n【廣告數據】\n（貼上從廣告管理員匯出的表格：廣告組合名稱、花費、曝光、點擊、CTR、CPC、轉換數、CVR、營收、ROAS、頻率）\n\n【請依序輸出】\n1. 總結：一句話說出目前最大的問題\n2. 漏斗診斷：逐組判斷問題在素材、受眾、到達頁，還是成本結構\n3. 停損建議：哪些組該關、該留、該加碼，並說明依據\n4. 下一步行動：本週最優先的 3 件事\n5. 資料不足的地方：哪些判斷還需要更多數據，請直接標註',
+      tip:'AI 會給看似合理的建議，最終決策仍要回到你的商業目標與 CPA 天花板。'}
+  ];
+  var PGNAME={a:'① 受眾',b:'② 素材',c:'③ 預算',d:'④ 數據'};
+
+  /* ---------- 工具 ---------- */
+  var E='https://ecom.atmarketing.tw/';
+  var T_A=[
+    {n:'客群轉廣告受眾',s:1,d:'把 Persona 翻成 Meta / Google 後台可以直接設定的條件，不用自己猜要勾哪個興趣。',u:E+'persona-to-audience'},
+    {n:'廣告受眾建議師',s:1,d:'跨平台受眾標籤 ＋ 預算分配建議，第一次投放不知道從哪裡開始就用它。',u:E+'audience-builder'},
+    {n:'真實顧客原話回填器',s:1,d:'貼一批真實留言或評論，把虛構的 persona 變成有顧客原話佐證的真人。治「AI 產出是假設」這個病。',u:E+'voc-persona-enricher'},
+    {n:'客群對照器',s:0,d:'兩個客群該分開經營還是合併成一組？直接給你答案，決定要開幾組廣告。',u:E+'persona-compare'},
+    {n:'AI 目標關鍵字規劃器',s:0,d:'產業 × 你的商品，產出 10 個可投放的目標關鍵字，給 Google 搜尋廣告用。',u:E+'keyword-planner'},
+    {n:'競品定位地圖',s:0,d:'四象限定位圖 ＋ 差異化機會點，填受眾表第⑥欄「競爭對手是誰」時用。',u:E+'competitor-positioning'},
+    {n:'受眾名單健檢 + 擴展器',s:0,d:'上傳廣告受眾前先清名單，再決定要不要擴展。做 Lookalike 之前先過這一關。',u:E+'audience-expander'}
+  ];
+  var T_B=[
+    {n:'IG Reels 鉤點設計器',s:1,d:'前 3 秒鉤點 10 種公式一次給你，直接解決「影片前 3 秒是 Logo」這個最常見的錯。',u:E+'ig-reels-hook'},
+    {n:'AI 電商文案產生器',s:1,d:'一個商品，六種平台文案，鉤子到 CTA 的結構都幫你排好。',u:E+'copywriter'},
+    {n:'產品標題 A/B 變體機',s:1,d:'一個產品生 10 個標題加 CTR 預估，正好拿來做「一次只改標題」的測試。',u:E+'title-ab'},
+    {n:'廣告素材命中率診斷',s:1,d:'五維度評分卡 ＋ 改善行動，上線前先讓 AI 當你的第一個互評夥伴。',u:E+'creative-score'},
+    {n:'Meta 廣告版位選擇器',s:1,d:'FB ＋ IG 17 種版位一鍵推薦，省得自己查尺寸與安全區。',u:E+'meta-placement'},
+    {n:'短影音腳本產生器',s:0,d:'Reels / TikTok / Shorts 15 到 60 秒腳本，接著丟給分鏡提示詞。',u:E+'short-video-script'},
+    {n:'AI 商品情境圖 Prompt 設計器',s:0,d:'幫你把情境圖的 Prompt 寫好，不用自己想「真實攝影風、自然光」要怎麼下。',u:E+'product-scene-prompt'},
+    {n:'商品主圖文案產生器',s:0,d:'主圖上要壓哪幾個字，點擊率差很多，這支專門產主圖文案。',u:E+'hero-image-text'},
+    {n:'爆款影片拆解器',s:0,d:'貼一支爆紅短影音的逐字稿，拆出前 3 秒與留人技巧，再拍自己的版本。',u:E+'viral-video-breakdown'},
+    {n:'品牌口吻記憶卡',s:0,d:'貼 3 到 5 篇舊文萃取你的口吻，之後所有 AI 產出都像你本人寫的。',u:E+'brand-voice-memory'}
+  ];
+  var T_C=[
+    {n:'投放前 KPI 試算器',s:1,d:'還沒花半毛錢，先算出這門廣告生意划不划算。今天第三關的延伸版。',u:E+'kpi-calc'},
+    {n:'廣告 ROAS 計算器',s:1,d:'算清楚廣告到底有沒有賺，損益兩平與目標 ROAS 一次看。',u:E+'ad-calc'},
+    {n:'廣告預算分配器',s:1,d:'預算怎麼分到各組？AI 幫你算最佳比例，對應驗證期 3 到 5 組。',u:E+'ad-budget'},
+    {n:'利潤計算器 & 促銷模擬',s:0,d:'毛利率算不出來就先用這支，打折前也能先模擬會不會虧。',u:E+'profit'},
+    {n:'客戶 LTV 終身價值計算器',s:0,d:'回購型商品用 LTV 放寬 CPA 天花板，先在這裡算出每個客戶值多少錢。',u:E+'ltv-calc'},
+    {n:'A/B 測試規劃器',s:0,d:'要測多久、要多少樣本才算數，開跑前先規劃好。',u:E+'ab-planner'},
+    {n:'A/B 測試結果解讀器',s:0,d:'算信心水準與 ROI，避免看到一點差距就急著下結論。',u:E+'ab-analyzer'}
+  ];
+  var T_D=[
+    {n:'Meta Ads 廣告組診斷',s:1,d:'貼 Meta Ads CSV，AI 直接給「砍 / 留 / 加碼」決策。提示詞⑨的現成版本。',u:E+'meta-ads-analyzer'},
+    {n:'FB/Meta 廣告健檢器',s:1,d:'貼數據，AI 抓病因 ＋ 改善 checklist，看不懂後台時先丟這裡。',u:E+'ad-diagnoser'},
+    {n:'轉換漏斗瓶頸分析',s:1,d:'整體轉換率只說「不好」，漏斗才說「哪裡不好」。對應今天的漏斗診斷法。',u:E+'conversion-funnel'},
+    {n:'商品頁轉換率診斷',s:1,d:'CTR 高但 CVR 低的標準解法：有流量沒轉換，AI 幫你找病因。',u:E+'page-doctor'},
+    {n:'活動頁六面向健檢',s:0,d:'貼上活動頁文案，六面向評分找轉換漏洞，到達頁接不住時用。',u:E+'lp-audit'},
+    {n:'Google Ads 關鍵字優化器',s:0,d:'貼 Search Terms CSV，找出燒錢卻沒轉換的字。',u:E+'google-ads-analyzer'},
+    {n:'否定關鍵字產生器',s:0,d:'一次產出 80 到 120 個否定關鍵字，CSV 直接匯入 Google Ads。',u:E+'negative-keywords'},
+    {n:'GA4 白話翻譯器',s:0,d:'貼上 GA4 數據，AI 翻成人話：發生什麼事、該做什麼。',u:E+'ga4-translator'},
+    {n:'UTM 追蹤連結產生器',s:0,d:'每個管道一條專屬連結，事後才分得出誰帶單。開跑前就要做。',u:E+'utm-builder'},
+    {n:'廣告多管道歸因分析',s:0,d:'五種歸因模型一鍵切換比較，多管道一起跑時用。',u:E+'attribution'}
+  ];
+  var T_E=[
+    {n:'ChatGPT',s:1,d:'今天 11 段提示詞的主力，也能直接生圖。',u:'https://chatgpt.com/'},
+    {n:'Claude',s:1,d:'長文與結構化表格很穩，適合跑受眾表與診斷報告。',u:'https://claude.ai/'},
+    {n:'Gemini',s:1,d:'人物一致、修改局部、合成商品最強；Veo 可做短影音。上傳自己的產品照效果最好。',u:'https://gemini.google.com/app'},
+    {n:'Canva',s:0,d:'AI 產圖後直接排版，一版設計快速產出多種版位尺寸。',u:'https://www.canva.com/zh_tw/'},
+    {n:'創流 AI 影片工具',s:1,d:'AI 生成商品廣告影片、UGC 真人帶貨影片，沒有剪輯經驗也做得出來。用這個連結註冊有免費點數可以先試做幾支。',u:'https://aivideospeed.com/?ref=MF-zx6446'},
+    {n:'HeyGen',s:0,d:'AI 虛擬人口播，不想出鏡時的替代方案。',u:'https://www.heygen.com/'},
+    {n:'Descript',s:0,d:'影片像改文字一樣剪，自動字幕、移除贅字。',u:'https://www.descript.com/'},
+    {n:'Meta 廣告管理員',s:1,d:'FB／IG 廣告的後台，受眾、素材、預算都在這裡設定。',u:'https://adsmanager.facebook.com/'},
+    {n:'Google Ads',s:0,d:'搜尋廣告與多媒體廣告後台，核心層主力戰場。',u:'https://ads.google.com/'},
+    {n:'LINE 官方帳號管理後台',s:0,d:'再行銷與回購的入口，台灣登入從這裡進去。',u:'https://tw.linebiz.com/login/'},
+    {n:'電商營運工具箱（全部工具）',s:1,d:'講師自建的免費 AI 工具站，200 多支工具，今天用到的都在裡面。',u:'https://ecom.atmarketing.tw/'}
+  ];
+  var SOURCES=[
+    {n:'Meta 商業說明中心：About the learning phase（學習期 50 次最佳化事件）',u:''},
+    {n:'Google Ads 說明：回應式多媒體廣告最佳做法（版位尺寸）',u:''},
+    {n:'AdManage：Facebook Ads Learning Phase Guide（2026）',u:''},
+    {n:'SocialPilot：What is Facebook Lookalike Audience（來源門檻 100 人）',u:''},
+    {n:'Jetfuel：How to Create Meta Lookalike Audiences in 2026',u:''},
+    {n:'Benly：Meta Ads Creative Specs 2026（版位尺寸與安全區）',u:''}
+  ];
+
+  /* ---------- 投票題 ---------- */
+  var POLLS={
+    lv:{q:'先聊一下：你目前怎麼投廣告？',o:[['A','還沒投過','今天來探路，想知道值不值得投'],['B','加強推廣為主','貼文按「加強推廣」，沒進過廣告管理員'],['C','有在後台投','會操作，但優化大多憑感覺'],['D','有系統在跑','有結構有數據，想把 AI 接進流程'],['E','已串接 API','已經串接 Meta MCP 或 API']],hint:'沒有對錯，這只是讓講師知道大家在哪一階，後面的 Demo 深度會依答案調整。'},
+    stuck:{q:'你目前最卡在哪一關？',o:[['A','受眾','不知道賣給誰'],['B','素材','做不出來，或做了沒人看'],['C','預算','不知道要花多少、怎麼分'],['D','數據','看不懂後台，不知改哪裡']],hint:'這題沒有標準答案，講師會依結果調整四關的講解比重。'},
+    q1:{q:'第一關 Q1：下列哪一個最像「可以拿去測試的受眾」？',o:[['A','25 到 34 歲女性',''],['B','對美妝有興趣的人',''],['C','換季時臉頰乾癢泛紅、正在找溫和保養品的上班族',''],['D','全台灣有在網購的人','']],ans:'C',
+      why:'C 同時具備問題（乾癢泛紅）、場景（換季）、人（上班族）。有了問題與場景，素材知道要講什麼，也找得到對應的關鍵字與興趣。',
+      ext:'A、B、D 只說了「是誰」或「喜歡什麼」，範圍太大，素材不知道該對誰說話。可測試的受眾 ＝ 問題 ＋ 場景 ＋ 人，缺一個就很難驗證。'},
+    q2:{q:'第一關 Q2：品牌剛上線兩週，只有 30 位顧客、像素還沒累積購買事件、每天預算 300 元，哪個做法最合理？',o:[['A','立刻用 30 位顧客建立 1% 類似受眾',''],['B','先鎖定核心層，用搜尋與精準情境累積第一批顧客',''],['C','受眾開到最大，用最便宜的「觸及」目標讓演算法自己找',''],['D','每天換一組新受眾，組數越多越好','']],ans:'B',
+      why:'先讓核心層轉換跑出來，名單累積後再做相似層。三層結構的順序：核心層 → 擴散層 → 相似層。',
+      ext:'A 類似受眾來源至少要 100 人、實務建議 1,000 人以上，30 人太少；C 還沒有購買訊號，選「觸及」只會找到最便宜、最常看廣告的人；D 每天換受眾，每組資料都不夠，還會讓系統一直重新學習。'},
+    q3:{q:'第二關 Q1：你同時把標題、圖片、CTA 都換掉，新版 CTR 變好了。你能確定是哪個改變造成的嗎？',o:[['A','能，一定是標題',''],['B','能，一定是圖片',''],['C','不能，因為同時改了三個變數',''],['D','能，看 CTR 就知道','']],ans:'C',
+      why:'一次改三個變數，只能知道「這一組組合比較好」，下一版不知道該保留什麼、該換什麼，等於重新開始。',
+      ext:'想知道贏在哪，就一次只改一個變數，其他條件保持一致。順序是：先測訴求與鉤子，再測視覺，最後測 CTA。'},
+    q4:{q:'第二關 Q2：產品是給上班族的即食雞胸肉，哪一個開頭最可能讓人 3 秒內停下來？',o:[['A','「XX 食品，用心為您把關每一口」',''],['B','「加班到九點，你的晚餐又是泡麵？」',''],['C','「本店全新上市，歡迎選購」',''],['D','「高蛋白、低脂肪、多種口味」','']],ans:'B',
+      why:'B 直接點出受眾的場景與痛點，讓人覺得「這是在說我」。',
+      ext:'A、C 都在講品牌自己，受眾沒有停下來的理由；D 是產品規格，適合放在「解方」段落，不適合當鉤子。好鉤子講的是「他」，不是「你的品牌」。'},
+    q5:{q:'第三關 Q1：客單價 2,000 元、毛利率 40%，損益兩平的 CPA 是多少？',o:[['A','400 元',''],['B','800 元',''],['C','1,200 元',''],['D','2,000 元','']],ans:'B',
+      why:'每單毛利 ＝ 2,000 × 40% ＝ 800 元，廣告取得一張訂單超過 800 元就開始虧錢。損益兩平 ROAS ＝ 2,000 ÷ 800 ＝ 2.5。',
+      ext:'若每單想保留 300 元利潤，CPA 天花板就是 500 元，目標 ROAS ＝ 2,000 ÷ 500 ＝ 4.0。先算出 CPA 天花板，才知道廣告什麼時候該停、什麼時候能加碼。'},
+    q6:{q:'第三關 Q2：你有 3 萬元驗證期預算，怎麼分最合理？',o:[['A','15 組各 2,000 元，組數越多越容易找到贏家',''],['B','4 組各 7,500 元，每組都有足夠數據',''],['C','1 組 3 萬元，全部押在同一個受眾',''],['D','第一天全部花完，最快看到結果','']],ans:'B',
+      why:'驗證期的目標是「用有限的錢比較出贏家」，3 到 5 組最好操作，每組才有足夠數據做判斷。',
+      ext:'A 組數太多，每組數據都不夠；C 只有一組，沒有比較對象；D 一天花完，系統來不及學習，數據波動很大。'},
+    q7:{q:'第四關 情境一：CTR 3.2%（高於帳戶平均），但 CVR 只有 0.3%。問題最可能出在哪裡？',o:[['A','素材沒有鉤子',''],['B','到達頁承接失敗',''],['C','客單價或成本結構',''],['D','素材疲乏','']],ans:'B',
+      why:'點進來的人很多，但到了頁面不買，問題在到達頁。檢查頁面速度、價格是否與廣告一致、購買流程是否太長。',
+      ext:'CTR 高代表素材與受眾是對的，不要急著換素材。先去修到達頁，對齊廣告給的承諾。'},
+    q8:{q:'第四關 情境二：前兩週 CTR 2.5%，第四週降到 0.9%，頻率升到 4.8。問題最可能出在哪裡？',o:[['A','素材沒有鉤子',''],['B','到達頁承接失敗',''],['C','客單價或成本結構',''],['D','素材疲乏','']],ans:'D',
+      why:'同一批人看了太多次，開始無感。換新的鉤子與畫面、定期輪替，也可以同步擴大受眾降低頻率。',
+      ext:'看指標組合，不看單一數字：CTR 告訴你素材，CVR 告訴你到達頁，頻率告訴你疲乏。'}
+  };
+  var pollAgg={}, pollN={}, pollSig='';
+  Object.keys(POLLS).forEach(function(k){pollAgg[k]={};pollN[k]=0;});
+
+  /* ---------- 表格與清單 ---------- */
+  var AUD_COLS=['①他買你的動機','②觸發場景','③他是誰','④在哪裡找到他','⑤他猶豫的地方','⑥競爭對手是誰','順序'];
+  var AUD_ROWS=['受眾 A','受眾 B','受眾 C'];
+  var AUD_DEMO=['想吃健康，沒時間煮','健身完、加班後回家','25 到 40 歲通勤上班族','Meta 健身興趣；搜尋「高蛋白即食」','怕難吃、怕吃不飽','超商雞胸肉、自己備餐','1'];
+  var CRE_ROWS=[['版本 1','恐懼'],['版本 2','嚮往'],['版本 3','理性']];
+  var CHK=[
+    ['受眾','寫出 2 到 3 組「問題＋場景＋人」'],
+    ['受眾','標出測試順序'],
+    ['受眾','確認在哪個平台找得到他'],
+    ['素材','前 3 秒有鉤子'],
+    ['素材','結構完整到 CTA'],
+    ['素材','每次只改一個變數'],
+    ['素材','尺寸符合版位規格'],
+    ['預算','算出 CPA 天花板'],
+    ['預算','驗證期集中 3 到 5 組'],
+    ['預算','分階段加碼，每次 20% 以內'],
+    ['數據','會看 CTR、CPC、CVR、ROAS'],
+    ['數據','用漏斗找出問題段'],
+    ['數據','設好三個停損訊號']
+  ];
+  var TASKS=[['t1','四大受眾表'],['t2','素材表（三版訴求）'],['t3','預算規劃與 CPA 天花板'],['t4','數據診斷結果'],['other','其他／想問的問題']];
+  var TASKMAP={}; TASKS.forEach(function(x){TASKMAP[x[0]]=x[1];});
+  var HINT={
+    t1:'貼上三組受眾的六個欄位與測試順序。<b>加分：</b>寫出為什麼這一組排第一。',
+    t2:'貼上三版標題與主文案。<b>加分：</b>說明三版只改了哪一個變數。',
+    t3:'貼上你的客單價、毛利率、CPA 天花板與驗證期預算分配。',
+    t4:'貼上你手上的廣告數據與你的判斷（問題在哪一段）。',
+    other:'任何想分享或想問的都可以交在這裡，截圖也行。'
+  };
+  var TPL={
+    t1:'【受眾 A】\n動機：\n場景：\n他是誰：\n在哪裡找到他：\n猶豫的地方：\n競爭對手：\n順序：\n\n【受眾 B】\n\n【受眾 C】\n\n【為什麼 A 排第一】',
+    t2:'【版本 1 恐懼】標題：\n主文案：\n\n【版本 2 嚮往】標題：\n主文案：\n\n【版本 3 理性】標題：\n主文案：\n\n【三版只改了】訴求／視覺／CTA（擇一）',
+    t3:'【客單價】\n【毛利率】\n【每單想保留利潤】\n【CPA 天花板】\n【損益兩平 ROAS】／【目標 ROAS】\n【驗證期預算】＿＿ 元 ÷ ＿＿ 組 ÷ ＿＿ 天 ＝ 每組每日 ＿＿ 元',
+    t4:'【目前數據】CTR＿ CPC＿ CVR＿ CPA＿ ROAS＿ 頻率＿\n【我判斷問題在】素材／受眾／到達頁／成本結構\n【下一步我要做】',
+    other:''
+  };
+
+  /* ---------- 狀態 ---------- */
+  var state={nick:'',biz:'',stage:'',uid:'',warm:{w1:'',w2:'',w3:''},aud:{},cre:{},calc:{},diag:{},chk:[],commitText:'',quiz:{},drafts:{},tools:{}};
+  for(var i=0;i<CHK.length;i++)state.chk.push(false);
+  try{var raw=localStorage.getItem(STORE);if(raw){var ps=JSON.parse(raw);if(ps.cohort===COHORT){
+    state.nick=ps.nick||'';state.biz=ps.biz||'';state.stage=ps.stage||'';state.uid=ps.uid||'';
+    state.warm=ps.warm||state.warm;state.aud=ps.aud||{};state.cre=ps.cre||{};
+    state.calc=ps.calc||{};state.diag=ps.diag||{};
+    state.chk=(ps.chk&&ps.chk.length===CHK.length)?ps.chk:state.chk;
+    state.commitText=ps.commitText||'';state.quiz=ps.quiz||{};state.drafts=ps.drafts||{};state.tools=ps.tools||{};
+  }}}catch(e){}
+  if(!state.uid)state.uid=Math.random().toString(36).slice(2,6);
+  function save(){try{localStorage.setItem(STORE,JSON.stringify({cohort:COHORT,nick:state.nick,biz:state.biz,stage:state.stage,uid:state.uid,warm:state.warm,aud:state.aud,cre:state.cre,calc:state.calc,diag:state.diag,chk:state.chk,commitText:state.commitText,quiz:state.quiz,drafts:state.drafts,tools:state.tools}));}catch(e){}}
+  function loggedIn(){return !!state.nick;}
+  function myCode(){return state.nick+'#'+state.uid;}
+
+  /* ---------- Supabase ---------- */
+  function payload(){
+    return {course:COURSE,cohort:COHORT,code:myCode(),name:state.nick,office:state.biz||'',
+      commit_checks:state.chk,commit_text:state.commitText||'',
+      quiz:Object.assign({},state.quiz,{warm:state.warm,aud:state.aud,cre:state.cre,calc:state.calc,diag:state.diag,chk:state.chk,biz:state.biz,stage:state.stage}),
+      score:0,cert_at:null};
+  }
+  async function syncRow(){
+    if(!loggedIn())return false;
+    try{
+      var r=await fetchT(SUPA_URL+'/rest/v1/lw_line_students?on_conflict=course,cohort,code',{method:'POST',
+        headers:Object.assign(H(),{'Content-Type':'application/json',Prefer:'resolution=merge-duplicates,return=minimal'}),
+        body:JSON.stringify(payload())},15000);
+      return r.ok;
+    }catch(e){return false;}
+  }
+  async function fetchMe(ms){
+    if(!loggedIn())return null;
+    try{
+      var u=SUPA_URL+'/rest/v1/lw_line_students?course=eq.'+encodeURIComponent(COURSE)+'&cohort=eq.'+encodeURIComponent(COHORT)+'&code=eq.'+encodeURIComponent(myCode())+'&select=quiz,commit_text,commit_checks';
+      var r=await fetchT(u,{headers:H()},ms||12000); var rows=await r.json();
+      return Array.isArray(rows)&&rows[0]?rows[0]:null;
+    }catch(e){return null;}
+  }
+
+  /* ---------- 分頁 ---------- */
+  function switchTab(t){
+    document.querySelectorAll('.tab-section').forEach(function(s){s.classList.toggle('active',s.getAttribute('data-tab')===t);});
+    document.querySelectorAll('.tab-btn').forEach(function(b){var on=b.getAttribute('data-tab')===t;b.classList.toggle('on',on);b.setAttribute('aria-selected',on?'true':'false');});
+    var ab=document.querySelector('.tab-btn.on'); if(ab&&ab.scrollIntoView)try{ab.scrollIntoView({inline:'center',block:'nearest',behavior:'smooth'});}catch(e){}
+    document.getElementById('hud').classList.toggle('hide',t==='upload');
+    window.scrollTo({top:0,behavior:'smooth'});
+    track('tab',{tab:t});
+    if(t==='upload'){loadSubs();loadAllSubs();}
+    if(t!=='prompts'&&t!=='tools')refreshStats();
+  }
+  window.switchTab=switchTab;
+  function toast(m){var el=document.getElementById('toast');el.textContent=m;el.classList.add('show');clearTimeout(el._t);el._t=setTimeout(function(){el.classList.remove('show');},2600);}
+
+  /* ---------- 投票 ---------- */
+  function renderPoll(k){
+    var host=document.getElementById('poll_'+k); if(!host)return;
+    var P=POLLS[k], mine=state.quiz[k], voted=!!mine, n=pollN[k]||0;
+    var html='<div class="q">'+esc(P.q)+'</div>';
+    P.o.forEach(function(o){
+      var c=(pollAgg[k]&&pollAgg[k][o[0]])||0, pct=n?Math.round(c/n*100):0;
+      html+='<button class="popt'+(mine===o[0]?' mine':'')+'" type="button" data-poll="'+k+'" data-v="'+o[0]+'">'
+        +(voted?'<span class="bar" style="width:'+pct+'%"></span>':'')
+        +'<span class="k">'+o[0]+'</span><span class="lb">'+esc(o[1])+(o[2]?'<small>'+esc(o[2])+'</small>':'')+'</span>'
+        +(voted?'<span class="pc">'+pct+'%</span>':'')+'</button>';
+    });
+    html+='<div class="n">'+(voted?('目前 '+n+' 人作答'+(P.hint?' · '+esc(P.hint):'')):(P.hint?esc(P.hint):'點一個選項投票'))+'</div>';
+    if(P.ans){
+      html+='<div class="ansbox'+(voted?' show':'')+'"><div class="a">✅ 正解：'+P.ans+'　'+esc((P.o.filter(function(o){return o[0]===P.ans;})[0]||['',''])[1])+'</div>'
+        +'<p><b>為什麼：</b>'+esc(P.why)+'</p><div class="ext"><b>延伸：</b>'+esc(P.ext)+'</div></div>';
+    }
+    host.innerHTML=html;
+  }
+  function renderAllPolls(){Object.keys(POLLS).forEach(renderPoll);}
+  async function vote(k,v){
+    if(!loggedIn()){toast('先報到才能投票');openReg();return;}
+    state.quiz[k]=v; save(); renderPoll(k); track('poll_vote',{poll:k,value:v});
+    await syncRow(); refreshStats();
+  }
+
+  /* ---------- 暖身牆 ---------- */
+  var warmRows=[];
+  function renderWarm(){
+    document.getElementById('w1').value=state.warm.w1||'';
+    document.getElementById('w2').value=state.warm.w2||'';
+    document.getElementById('w3').value=state.warm.w3||'';
+    var host=document.getElementById('warmWall');
+    if(!warmRows.length){host.innerHTML='<p class="muted-note">還沒有人送出。填完上面那三格，第一個貼上牆。</p>';return;}
+    host.innerHTML=warmRows.map(function(r){
+      return '<div class="wcard'+(r.me?' me':'')+'"><div class="nm">'+(r.me?'⭐ 我 · ':'')+esc(r.name)+(r.biz?' · '+esc(r.biz):'')+'</div>'
+        +'<div class="sent">我的 <b>'+esc(r.w1)+'</b>，是賣給 <b>'+esc(r.w2)+'</b> 的人，他們在 <b>'+esc(r.w3)+'</b> 的時候最需要它。</div></div>';
+    }).join('');
+  }
+  function warmText(){
+    return '我的「'+(state.warm.w1||'＿＿')+'」，是賣給「'+(state.warm.w2||'＿＿')+'」的人，他們在「'+(state.warm.w3||'＿＿')+'」的時候最需要它。';
+  }
+
+  /* ---------- 受眾表 / 素材表 ---------- */
+  function renderAud(){
+    document.getElementById('audBody').innerHTML=AUD_ROWS.map(function(r,ri){
+      return '<tr><th class="rowh">'+esc(r)+'</th>'+AUD_COLS.map(function(c,ci){
+        var k='r'+ri+'c'+ci;
+        return '<td><input type="text" data-aud="'+k+'" value="'+esc(state.aud[k]||'')+'" placeholder="'+esc(ri===0?AUD_DEMO[ci]:'')+'"></td>';
+      }).join('')+'</tr>';
+    }).join('');
+  }
+  function audText(){
+    var L=['我的四大受眾表',''];
+    AUD_ROWS.forEach(function(r,ri){
+      L.push('■ '+r);
+      AUD_COLS.forEach(function(c,ci){ L.push('　'+c+'：'+(state.aud['r'+ri+'c'+ci]||'（空）')); });
+      L.push('');
+    });
+    L.push('測試順序越前面＝需求越明確、越接近購買。');
+    return L.join('\n');
+  }
+  function renderCre(){
+    document.getElementById('creBody').innerHTML=CRE_ROWS.map(function(r,ri){
+      return '<tr><th class="rowh">'+r[0]+'</th><td style="font-weight:800;color:var(--teal)">'+r[1]+'</td>'
+        +'<td><input type="text" data-cre="t'+ri+'" value="'+esc(state.cre['t'+ri]||'')+'" placeholder="20 字內的鉤子標題"></td>'
+        +'<td><input type="text" data-cre="b'+ri+'" value="'+esc(state.cre['b'+ri]||'')+'" placeholder="痛點共鳴 → 解方 → 信任證明"></td></tr>';
+    }).join('');
+  }
+  function creText(){
+    var L=['我的素材表（三版只改訴求）',''];
+    CRE_ROWS.forEach(function(r,ri){
+      L.push('■ '+r[0]+'（'+r[1]+'訴求）');
+      L.push('　標題：'+(state.cre['t'+ri]||'（空）'));
+      L.push('　主文案：'+(state.cre['b'+ri]||'（空）'));
+      L.push('');
+    });
+    return L.join('\n');
+  }
+
+  /* ---------- 計算機 ---------- */
+  function num(id,d){var v=parseFloat((document.getElementById(id)||{}).value);return isNaN(v)?d:v;}
+  function calcCPA(){
+    var price=num('cPrice',0), margin=num('cMargin',0), keep=num('cKeep',0), orders=num('cOrders',0);
+    var gross=price*margin/100, ceil=gross-keep;
+    var be=gross>0?price/gross:0, tgt=ceil>0?price/ceil:0, budget=ceil>0?orders*ceil:0;
+    document.getElementById('oGross').textContent=nf(gross);
+    document.getElementById('oCeil').textContent=nf(ceil);
+    document.getElementById('oBe').textContent=be?be.toFixed(1):'－';
+    document.getElementById('oTarget').textContent=tgt?tgt.toFixed(1):'－';
+    document.getElementById('oBudget').textContent=nf(budget);
+    var note;
+    if(!(price>0&&margin>0)){note='先填客單價與毛利率，下面就會自動算。';}
+    else if(ceil<=0){note='⚠️ 想保留的利潤（'+nf(keep)+'）已經吃掉整個毛利（'+nf(gross)+'），這樣廣告一毛都不能花。先降低想保留的利潤，或提高客單價與毛利率。';}
+    else{note='白話說：廣告取得一張訂單超過 <b>'+nf(gross)+' 元</b>就開始虧錢，所以你允許花的上限是 <b>'+nf(ceil)+' 元</b>。後台 ROAS 低於 <b>'+be.toFixed(1)+'</b> 就是在虧錢，目標要做到 <b>'+tgt.toFixed(1)+'</b>。要拿到 '+nf(orders)+' 張訂單，大約準備 <b>'+nf(budget)+' 元</b>，其中驗證期先花約 <b>'+nf(budget*0.3)+' 元</b>（30%）分成 3 到 5 組去找贏家。';}
+    document.getElementById('calcNote').innerHTML=note;
+    state.calc={price:price,margin:margin,keep:keep,orders:orders,gross:gross,ceil:ceil,be:be,tgt:tgt,budget:budget};
+    save();
+  }
+  function calcText(){
+    var c=state.calc||{};
+    return ['我的 CPA 天花板試算',
+      '客單價：'+nf(c.price||0)+' 元　毛利率：'+(c.margin||0)+'%　每單想保留：'+nf(c.keep||0)+' 元',
+      '每單毛利（損益兩平 CPA）：'+nf(c.gross||0)+' 元',
+      'CPA 天花板：'+nf(c.ceil||0)+' 元',
+      '損益兩平 ROAS：'+(c.be?c.be.toFixed(1):'－')+'　目標 ROAS：'+(c.tgt?c.tgt.toFixed(1):'－'),
+      '目標 '+nf(c.orders||0)+' 張訂單所需預算：'+nf(c.budget||0)+' 元',
+      '驗證期（30%）：'+nf((c.budget||0)*0.3)+' 元，分 3 到 5 組'].join('\n');
+  }
+  function calcDiag(){
+    var cpc=num('dCpc',0), cvr=num('dCvr',0), price=num('dPrice',0), ceil=num('dCeil',0);
+    var cpa=cvr>0?cpc/(cvr/100):0, roas=cpa>0?price/cpa:0, gap=ceil-cpa;
+    var needCvr=ceil>0&&cpc>0?(cpc/ceil*100):0;
+    document.getElementById('dCpa').textContent=cpa?nf(cpa):'－';
+    document.getElementById('dRoas').textContent=roas?roas.toFixed(1):'－';
+    document.getElementById('dGap').textContent=cpa?(gap>=0?'+'+nf(gap):nf(gap)):'－';
+    document.getElementById('dNeed').textContent=needCvr?needCvr.toFixed(2)+'%':'－';
+    var note;
+    if(!(cpc>0&&cvr>0)){note='填 CPC 與 CVR 就會算。CPA ＝ CPC ÷ CVR。';}
+    else if(gap>=0){note='<span class="diag">✅ 目前在天花板之內</span>，CPA '+nf(cpa)+' 元、ROAS '+roas.toFixed(1)+'。還有 '+nf(gap)+' 元的空間，可以考慮分階段加碼（每次 20% 以內，隔幾天再調）。';}
+    else{note='<span class="diag">⚠️ 超出天花板 '+nf(-gap)+' 元</span>。要達標，CVR 必須從 '+cvr+'% 拉到 <b>'+needCvr.toFixed(2)+'%</b>，或把 CPC 壓到 <b>'+nf(ceil*cvr/100)+' 元</b>以下。<br>CVR 要拉 → 先修到達頁（速度、價格一致、流程長度）；CPC 要降 → 先修素材鉤子與受眾精準度。';}
+    document.getElementById('dNote').innerHTML=note;
+    state.diag={cpc:cpc,cvr:cvr,price:price,ceil:ceil,cpa:cpa,roas:roas}; save();
+  }
+
+  /* ---------- 提示詞 ---------- */
+  function renderPrompts(f){
+    document.getElementById('promptHost').innerHTML=PROMPTS.filter(function(p){return !f||f==='all'||p.g===f;}).map(function(p){
+      return '<div class="tcard" id="prompt_'+p.id+'"><div class="hd"><h3>'+esc(p.n)+'　'+esc(p.t)+'</h3>'
+        +'<span class="badge">'+esc(PGNAME[p.g])+'</span></div>'
+        +'<div class="pbody" id="pb_'+p.id+'">'+esc(p.b)+'</div>'
+        +(p.tip?'<p class="muted-note" style="margin-top:8px">💡 '+esc(p.tip)+'</p>':'')
+        +'<div class="prow"><button class="btn btn-primary btn-sm" data-cp="'+p.id+'" type="button">📋 複製提示詞</button>'
+        +'<button class="btn btn-ghost btn-sm" data-ex="'+p.id+'" type="button">展開全文</button>'
+        +'<span class="ai-go"><a href="https://chatgpt.com/" target="_blank" rel="noopener">🤖 ChatGPT</a><a href="https://claude.ai/" target="_blank" rel="noopener">✳️ Claude</a><a href="https://gemini.google.com/app" target="_blank" rel="noopener">✨ Gemini</a></span>'
+        +'<span class="src">'+esc(p.src)+'</span></div></div>';
+    }).join('');
+  }
+  function allPromptsText(){
+    var head='從流量到訂單：AI 助攻的新創廣告投放攻略\nAI 提示詞模板包（11 段）· 講師 何佳勳（小圭老師）· 圭話行銷\n\n把「＿＿＿」換成你自己的產品資訊。\n\n';
+    return head+PROMPTS.map(function(p){return '===== '+p.n+' '+p.t+' =====\n'+p.b;}).join('\n\n');
+  }
+  function copyTxt(btn,txt,okMsg){
+    var done=function(){var o=btn.innerHTML;btn.innerHTML='✓ 已複製';toast(okMsg||'✓ 已複製，貼到 ChatGPT 或 Claude');setTimeout(function(){btn.innerHTML=o;},1600);};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){fb(txt);done();});}
+    else{fb(txt);done();}
+    function fb(t){var ta=document.createElement('textarea');ta.value=t;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');}catch(e){}document.body.removeChild(ta);}
+  }
+  function goPrompt(id){
+    switchTab('prompts'); renderPrompts('all');
+    document.querySelectorAll('.pfilter').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-pf')==='all');});
+    setTimeout(function(){
+      var el=document.getElementById('prompt_'+id); if(!el)return;
+      el.scrollIntoView({behavior:'smooth',block:'center'});
+      el.style.boxShadow='0 0 0 3px rgba(46,196,182,.4)';
+      setTimeout(function(){el.style.boxShadow='';},2200);
+    },160);
+  }
+  window.goPrompt=goPrompt;
+
+  /* ---------- 工具卡 ---------- */
+  function toolCard(t){
+    var href=siteUTM(t.u), disp=t.u.replace(/^https?:\/\//,'').replace(/\/$/,'');
+    try{disp=decodeURIComponent(disp);}catch(e){}
+    return '<div class="toolcard"><div class="tn">'+(t.s?'<span class="star">⭐</span>':'')+esc(t.n)+'</div>'
+      +'<div class="td">'+esc(t.d)+'</div><div class="tu">'+esc(disp)+'</div>'
+      +'<a class="btn btn-primary btn-sm go" href="'+esc(href)+'" target="_blank" rel="noopener">開啟 →</a></div>';
+  }
+  function renderTools(){
+    document.getElementById('toolA').innerHTML=T_A.map(toolCard).join('');
+    document.getElementById('toolB').innerHTML=T_B.map(toolCard).join('');
+    document.getElementById('toolC').innerHTML=T_C.map(toolCard).join('');
+    document.getElementById('toolD').innerHTML=T_D.map(toolCard).join('');
+    document.getElementById('toolE').innerHTML=T_E.map(toolCard).join('');
+    document.getElementById('srcList').innerHTML=SOURCES.map(function(s){
+      return '<li>'+esc(s.n)+(s.u?'：<a href="'+esc(s.u)+'" target="_blank" rel="noopener">'+esc(s.u.replace(/^https?:\/\//,''))+'</a>':'<span class="muted-note">（請見簡報附錄的連結）</span>')+'</li>';
+    }).join('');
+    document.querySelectorAll('footer a[data-own]').forEach(function(a){a.href=siteUTM(a.getAttribute('href'));});
+  }
+
+  /* ---------- 檢核清單 ---------- */
+  function renderChk(){
+    document.getElementById('chkHost').innerHTML=CHK.map(function(c,i){
+      return '<label class="chk'+(state.chk[i]?' on':'')+'"><input type="checkbox" data-chk="'+i+'" '+(state.chk[i]?'checked':'')+'>'
+        +'<span class="d">'+c[0]+'</span><span class="t">'+esc(c[1])+'</span></label>';
+    }).join('');
+    document.getElementById('commitText').value=state.commitText||'';
+    chkStatus();
+  }
+  function chkStatus(){
+    var n=state.chk.filter(Boolean).length;
+    document.getElementById('commitStatus').textContent=loggedIn()
+      ? ('已勾 '+n+' / '+CHK.length+' 項'+(state.commitText?'，並寫下第一件事':'')+'，記得按「存起來」。')
+      : '報到後勾選才會存到後台。';
+  }
+
+  /* ---------- 上傳 ---------- */
+  var subMode='text', subFileObj=null;
+  function renderWho(){
+    var box=document.getElementById('whoBox');
+    if(!loggedIn()){box.innerHTML='<div class="callout warn"><b>還沒報到：</b>要先填暱稱，交出來的成果講師才知道是誰的。<br><button class="btn btn-primary btn-sm" type="button" style="margin-top:8px" onclick="openReg()">🙋 現在報到</button></div>';return;}
+    box.innerHTML='<div class="who"><span class="g">'+esc(state.nick)+'</span><span>'+esc(state.biz||'')+'</span><button type="button" onclick="openReg()">改資料</button></div>';
+  }
+  function setTask(t){
+    var sel=document.getElementById('subTask'); if(t)sel.value=t;
+    document.getElementById('taskHint').innerHTML=HINT[sel.value]||'';
+    var d=state.drafts[sel.value]; if(d!==undefined&&d!==null)document.getElementById('subText').value=d;
+    loadSubs();
+  }
+  function applyTpl(force){
+    var t=document.getElementById('subTask').value, ta=document.getElementById('subText');
+    if(!TPL[t])return; if(ta.value.trim()&&!force){ if(!confirm('要用範本取代目前的內容嗎？'))return; }
+    ta.value=TPL[t]; state.drafts[t]=TPL[t]; save(); ta.focus();
+  }
+  function goUpload(t){
+    switchTab('upload'); setTask(t);
+    var ta=document.getElementById('subText');
+    if(!ta.value.trim()){
+      var auto=t==='t1'?audText():t==='t2'?creText():t==='t3'?calcText():'';
+      ta.value=auto||TPL[t]||''; state.drafts[t]=ta.value; save();
+    }
+    if(!loggedIn())openReg();
+  }
+  window.goUpload=goUpload;
+  function safe(s){return String(s||'').replace(/[^a-zA-Z0-9]/g,'_').slice(0,24)||'x';}
+  async function shrink(file){
+    try{
+      if(file.size<900*1024&&/image\/(png|jpe?g|webp|gif)/i.test(file.type||''))return file;
+      if(!window.createImageBitmap)return file;
+      var bmp=await createImageBitmap(file);
+      var max=1600, r=Math.min(1,max/Math.max(bmp.width,bmp.height));
+      var c=document.createElement('canvas'); c.width=Math.round(bmp.width*r); c.height=Math.round(bmp.height*r);
+      c.getContext('2d').drawImage(bmp,0,0,c.width,c.height);
+      var blob=await new Promise(function(res){c.toBlob(res,'image/jpeg',0.86);});
+      if(blob&&(blob.size<file.size||!/image\/(png|jpe?g|webp|gif)/i.test(file.type||'')))return blob;
+    }catch(e){}
+    return file;
+  }
+  async function uploadImage(file){
+    var ext=/jpeg/.test(file.type||'')?'jpg':((((file.name||'img').split('.').pop())||'png').toLowerCase().replace(/[^a-z0-9]/g,'')||'png');
+    var path=COURSE+'/'+safe(COHORT)+'/'+safe(state.uid)+'/'+Date.now()+'-'+Math.floor(Math.random()*1e7)+'.'+ext;
+    var r=await fetchT(SUPA_URL+'/storage/v1/object/'+BUCKET+'/'+path,{method:'POST',headers:Object.assign(H(),{'Content-Type':file.type||'image/png','x-upsert':'false'}),body:file},60000);
+    if(!r.ok){var t='';try{t=await r.text();}catch(e){} throw new Error('圖片上傳失敗 '+r.status+' '+t.slice(0,60));}
+    return SUPA_URL+'/storage/v1/object/public/'+BUCKET+'/'+path;
+  }
+  async function insertSub(o){
+    var r=await fetchT(SUPA_URL+'/rest/v1/lw_workshop_submissions',{method:'POST',headers:Object.assign(H(),{'Content-Type':'application/json',Prefer:'return=minimal'}),body:JSON.stringify(o)},20000);
+    if(!r.ok){var t='';try{t=await r.text();}catch(e){} throw new Error('送出失敗 '+r.status+' '+t.slice(0,60));}
+  }
+  function friendlyErr(e){
+    var m=String((e&&e.message)||e||'');
+    try{console.error('[upload]',m);}catch(x){}
+    if(/Failed to fetch|NetworkError|abort|timeout/i.test(m))return '網路不穩，這一版沒送出去。等幾秒再按一次就好，你打的字還在。';
+    if(/413|too large|exceeded/i.test(m))return '圖片太大傳不上去。改用手機截圖，或換一張小一點的。';
+    if(/mime|content-?type|415/i.test(m))return '這個圖片格式不支援。用手機截圖（PNG 或 JPG）再傳一次。';
+    if(/^圖片上傳失敗/.test(m))return '圖片沒傳成功，換一張或改用截圖再試一次。還是不行就舉手。';
+    return '沒送出去，再按一次試試。連續兩次都失敗就舉手。';
+  }
+  async function doSubmit(){
+    if(!loggedIn()){toast('先報到才能繳交');openReg();return;}
+    var task=document.getElementById('subTask').value; if(!task){toast('先選要交哪一份');return;}
+    var btn=document.getElementById('subBtn'), st=document.getElementById('subStatus'), orig=btn.innerHTML;
+    var base={course:COURSE,cohort:COHORT,team:state.nick,submitter:state.nick,task:task};
+    btn.disabled=true;
+    try{
+      if(subMode==='text'){
+        var txt=(document.getElementById('subText').value||'').trim();
+        if(!txt||txt===(TPL[task]||'').trim()){toast('請先填寫內容');btn.disabled=false;btn.innerHTML=orig;return;}
+        btn.innerHTML='送出中…';
+        await insertSub(Object.assign({kind:'text',content:txt},base));
+        document.getElementById('subText').value=''; delete state.drafts[task]; save();
+      }else{
+        if(!subFileObj){toast('請先選一張圖片');btn.disabled=false;btn.innerHTML=orig;return;}
+        btn.innerHTML='處理圖片…';
+        var f2=await shrink(subFileObj);
+        if(f2.size>10*1024*1024){toast('圖片超過 10MB，請換一張或先截圖');btn.disabled=false;btn.innerHTML=orig;return;}
+        btn.innerHTML='上傳中…';
+        var url=await uploadImage(f2);
+        await insertSub(Object.assign({kind:'image',image_url:url},base));
+        subFileObj=null; document.getElementById('subFile').value='';
+        var dz=document.getElementById('dropz'); dz.classList.remove('has');
+        dz.innerHTML='📷 點這裡選一張圖片上傳<br><small>手機截圖、AI 產出的圖都可以（10MB 內）<br>⚠️ 有客戶個資的畫面請先遮掉</small>';
+      }
+      state.tools.uploaded=1; save(); updateHud();
+      toast('✓ 已送出！');
+      st.textContent='✓ 已送出！可以再交別份，每一版都會保留。';
+      track('submit_work',{task:task});
+      try{if(window.fbq)fbq('trackCustom','SubmitWork',{task:task});}catch(e){}
+      loadSubs(); loadAllSubs();
+    }catch(e){ var msg=friendlyErr(e); toast(msg); st.textContent='⚠️ '+msg; }
+    btn.disabled=false; btn.innerHTML=orig;
+  }
+  function fmtTime(s){try{return new Date(s).toLocaleString('zh-TW',{hour12:false,month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});}catch(e){return '';}}
+  async function loadSubs(){
+    var host=document.getElementById('subList'), title=document.getElementById('subListTitle'), task=document.getElementById('subTask').value;
+    if(!loggedIn()||!task){host.innerHTML='<p class="muted-note">報到後選好題目，這裡會顯示你交過的版本。</p>';title.textContent='我的上傳紀錄';return;}
+    title.textContent=(TASKMAP[task]||task)+' 的上傳紀錄';
+    try{
+      var u=SUPA_URL+'/rest/v1/lw_workshop_submissions?course=eq.'+encodeURIComponent(COURSE)+'&cohort=eq.'+encodeURIComponent(COHORT)
+        +'&submitter=eq.'+encodeURIComponent(state.nick)+'&task=eq.'+encodeURIComponent(task)
+        +'&select=submitter,kind,content,image_url,created_at&order=created_at.asc';
+      var r=await fetchT(u,{headers:H()},15000); var rows=await r.json(); if(!Array.isArray(rows))rows=[];
+      if(!rows.length){host.innerHTML='<p class="muted-note">這一份你還沒交過。</p>';return;}
+      host.innerHTML=rows.map(function(x,i){
+        var body=x.kind==='image'
+          ?('<a href="'+esc(x.image_url)+'" target="_blank" rel="noopener"><img src="'+esc(x.image_url)+'" alt="上傳的成果" loading="lazy"></a>')
+          :('<div class="txt">'+esc(x.content||'')+'</div>');
+        return '<div class="subitem"><span class="vN">第 '+(i+1)+' 版</span><div class="body"><div class="who2">'+fmtTime(x.created_at)+'</div>'+body+'</div></div>';
+      }).join('');
+    }catch(e){host.innerHTML='<p class="muted-note">讀取失敗，稍後再試。</p>';}
+  }
+  async function loadAllSubs(){
+    var host=document.getElementById('allSubs');
+    try{
+      var u=SUPA_URL+'/rest/v1/lw_workshop_submissions?course=eq.'+encodeURIComponent(COURSE)+'&cohort=eq.'+encodeURIComponent(COHORT)
+        +'&select=submitter,task,kind,content,image_url,created_at&order=created_at.desc&limit=30';
+      var r=await fetchT(u,{headers:H()},15000); var rows=await r.json(); if(!Array.isArray(rows))rows=[];
+      if(!rows.length){host.innerHTML='<p class="muted-note">還沒有人交。你可以當第一個 🚀</p>';return;}
+      host.innerHTML=rows.map(function(x){
+        var body=x.kind==='image'
+          ?('<a href="'+esc(x.image_url)+'" target="_blank" rel="noopener"><img src="'+esc(x.image_url)+'" alt="學員成果" loading="lazy"></a>')
+          :('<div class="txt">'+esc((x.content||'').slice(0,320))+((x.content||'').length>320?' …':'')+'</div>');
+        return '<div class="subitem"><span class="vN">'+esc(TASKMAP[x.task]||x.task)+'</span><div class="body"><div class="who2">'+esc(x.submitter||'')+' · '+fmtTime(x.created_at)+'</div>'+body+'</div></div>';
+      }).join('');
+    }catch(e){host.innerHTML='<p class="muted-note">讀取失敗，稍後再試。</p>';}
+  }
+
+  /* ---------- 全場統計 ---------- */
+  async function refreshStats(){
+    try{
+      var u=SUPA_URL+'/rest/v1/lw_line_students?course=eq.'+encodeURIComponent(COURSE)+'&cohort=eq.'+encodeURIComponent(COHORT)+'&select=code,name,quiz,updated_at&order=updated_at.desc';
+      var r=await fetchT(u,{headers:H()},12000); var rows=await r.json(); if(!Array.isArray(rows))return;
+      Object.keys(POLLS).forEach(function(k){pollAgg[k]={};pollN[k]=0;});
+      var w=[];
+      rows.forEach(function(row){
+        var q=row.quiz||{};
+        Object.keys(POLLS).forEach(function(k){ var v=q[k]; if(v){pollAgg[k][v]=(pollAgg[k][v]||0)+1;pollN[k]++;} });
+        var wm=q.warm||{};
+        if(wm.w1&&wm.w2){ w.push({name:row.name||'',biz:q.biz||'',w1:wm.w1,w2:wm.w2,w3:wm.w3||'',me:row.code===myCode()}); }
+      });
+      w.sort(function(a,b){return (b.me?1:0)-(a.me?1:0);});
+      var sig=JSON.stringify([pollAgg,pollN,state.quiz,w.length,w.map(function(x){return x.w1+x.w2;})]);
+      if(sig===pollSig)return;
+      pollSig=sig; warmRows=w; renderAllPolls(); renderWarm();
+    }catch(e){}
+  }
+
+  /* ---------- 報到 ---------- */
+  function openReg(){
+    document.getElementById('regNick').value=state.nick||'';
+    document.getElementById('regBiz').value=state.biz||'';
+    document.getElementById('regStage').value=state.stage||'';
+    var er=document.getElementById('regErr'); er.style.display='none'; er.style.color=''; er.textContent='請填暱稱';
+    document.getElementById('regOverlay').classList.add('show');
+  }
+  window.openReg=openReg;
+  function closeReg(){document.getElementById('regOverlay').classList.remove('show');}
+  async function doReg(){
+    var b=document.getElementById('regBtn'); if(b.disabled)return;
+    var nick=(document.getElementById('regNick').value||'').trim();
+    var biz=(document.getElementById('regBiz').value||'').trim();
+    var stage=document.getElementById('regStage').value||'';
+    var er=document.getElementById('regErr');
+    if(!nick){er.style.display='block';return;}
+    state.nick=nick; state.biz=biz; state.stage=stage; save();
+    var ob=b.textContent; b.disabled=true; b.textContent='報到中…';
+    er.style.display='block'; er.style.color='var(--mute)'; er.textContent='報到中，網路慢的話最多等 5 秒…';
+    try{
+      var row=await fetchMe(5000);
+      if(row){
+        var q=(row.quiz&&typeof row.quiz==='object')?row.quiz:{};
+        state.quiz=q;
+        if(q.warm)state.warm=q.warm;
+        if(q.aud)state.aud=q.aud; if(q.cre)state.cre=q.cre;
+        if(Array.isArray(q.chk)&&q.chk.length===CHK.length)state.chk=q.chk.map(function(x){return !!x;});
+        state.commitText=row.commit_text||'';
+      }
+      save(); closeReg(); renderAll(); syncRow(); refreshStats(); loadSubs(); loadAllSubs();
+      track('reg',{stage:state.stage});
+      try{if(window.fbq)fbq('trackCustom','Register');}catch(e){}
+      toast('✓ 報到完成，'+state.nick);
+    }finally{
+      b.disabled=false; b.textContent=ob;
+      er.style.display='none'; er.style.color=''; er.textContent='請填暱稱';
+    }
+  }
+
+  /* ---------- HUD ---------- */
+  function updateHud(){
+    document.getElementById('hud').classList.add('show');
+    var voted=Object.keys(POLLS).filter(function(k){return state.quiz[k];}).length;
+    var audFilled=Object.keys(state.aud).filter(function(k){return (state.aud[k]||'').trim();}).length>=4;
+    var creFilled=Object.keys(state.cre).filter(function(k){return (state.cre[k]||'').trim();}).length>=2;
+    var warmFilled=!!(state.warm.w1&&state.warm.w2);
+    var steps=(loggedIn()?1:0)+(warmFilled?1:0)+(voted>=4?1:0)+(audFilled?1:0)+(creFilled?1:0)+(state.tools.uploaded?1:0)+((state.chk.filter(Boolean).length||state.commitText)?1:0);
+    document.getElementById('hudGp').firstChild.textContent=loggedIn()?(state.nick+' '):'👋 ';
+    document.getElementById('hudGpSub').textContent=loggedIn()?((state.biz||'已報到')+(state.tools.uploaded?' · 已交作業':'')):'點我報到';
+    document.getElementById('hudBar').style.width=(steps/7*100)+'%';
+  }
+  function renderAll(){ renderWho(); renderAllPolls(); renderWarm(); renderAud(); renderCre(); renderChk(); calcCPA(); calcDiag(); updateHud(); }
+
+  /* ---------- 列印 ---------- */
+  function printCard(){
+    var n=state.chk.filter(Boolean).length, c=state.calc||{};
+    document.getElementById('printCard').innerHTML=
+      '<div style="border:3px solid #0f6e6a;border-radius:16px;padding:32px;max-width:760px;margin:0 auto;font-family:\'Noto Sans TC\',sans-serif;color:#15262a">'
+      +'<div style="font-size:.85rem;color:#0f6e6a;font-weight:800">從流量到訂單：AI 助攻的新創廣告投放攻略 · 10/14 桃園</div>'
+      +'<h2 style="font-size:1.5rem;margin:8px 0 4px">我的投放前檢核表</h2>'
+      +'<div style="color:#648084;font-size:.9rem;margin-bottom:14px">'+esc(state.nick||'')+(state.biz?' · '+esc(state.biz):'')+'　已勾 '+n+' / '+CHK.length+'</div>'
+      +CHK.map(function(x,i){return '<div style="margin:6px 0;font-size:.95rem">'+(state.chk[i]?'☑':'☐')+' <b>'+x[0]+'</b>　'+esc(x[1])+'</div>';}).join('')
+      +'<div style="margin-top:14px;padding-top:12px;border-top:1px dashed #d3e9e6"><b>我的數字：</b>客單價 '+nf(c.price||0)+' 元／毛利率 '+(c.margin||0)+'%／CPA 天花板 <b>'+nf(c.ceil||0)+' 元</b>／目標 ROAS '+(c.tgt?c.tgt.toFixed(1):'－')+'／所需預算 '+nf(c.budget||0)+' 元</div>'
+      +'<div style="margin-top:10px"><b>我回去的第一件事：</b><br>'+esc(state.commitText||'＿＿＿＿＿＿＿＿＿＿')+'</div>'
+      +'<div style="margin-top:14px;color:#648084;font-size:.82rem">7 天行動：第 1 到 2 天完成受眾表 → 第 3 到 4 天做 3 版素材 → 第 5 到 7 天小預算開跑<br>講師 何佳勳（小圭老師）· 圭話行銷 atmarketing.tw</div></div>';
+    track('print_commit',{}); window.print();
+  }
+
+  /* ---------- 事件 ---------- */
+  document.querySelectorAll('.tab-btn').forEach(function(b){b.addEventListener('click',function(){switchTab(b.getAttribute('data-tab'));});});
+  document.getElementById('hud').addEventListener('click',function(){ if(!loggedIn()){openReg();} else switchTab('upload'); });
+  document.getElementById('heroReg').addEventListener('click',openReg);
+  document.getElementById('regBtn').addEventListener('click',function(){if(!this.disabled)doReg();});
+  document.getElementById('regNick').addEventListener('keydown',function(e){if(e.key==='Enter')doReg();});
+  document.getElementById('regSkip').addEventListener('click',function(e){e.preventDefault();closeReg();});
+  document.getElementById('regOverlay').addEventListener('click',function(e){if(e.target===this)closeReg();});
+
+  document.addEventListener('click',function(e){
+    var pv=e.target.closest('[data-poll]'); if(pv){ vote(pv.getAttribute('data-poll'),pv.getAttribute('data-v')); return; }
+    var cp=e.target.closest('[data-cp]');
+    if(cp){ var p=PROMPTS.filter(function(x){return x.id===cp.getAttribute('data-cp');})[0]; if(p){copyTxt(cp,p.b);state.tools.copied=1;save();track('copy_prompt',{id:p.id});} return; }
+    var ex=e.target.closest('[data-ex]');
+    if(ex){ var el=document.getElementById('pb_'+ex.getAttribute('data-ex')); if(el){el.classList.toggle('open');ex.textContent=el.classList.contains('open')?'收合':'展開全文';} return; }
+    var pf=e.target.closest('.pfilter');
+    if(pf){ document.querySelectorAll('.pfilter').forEach(function(b){b.classList.toggle('on',b===pf);}); renderPrompts(pf.getAttribute('data-pf')); return; }
+    var ob=e.target.closest('a[href^="http"]'); if(ob){ track('outbound_click',{url:ob.href}); }
+  });
+  document.addEventListener('input',function(e){
+    var a=e.target.closest('[data-aud]'); if(a){ state.aud[a.getAttribute('data-aud')]=a.value; save(); updateHud(); if(loggedIn()){clearTimeout(window._s1);window._s1=setTimeout(syncRow,1500);} return; }
+    var c=e.target.closest('[data-cre]'); if(c){ state.cre[c.getAttribute('data-cre')]=c.value; save(); updateHud(); if(loggedIn()){clearTimeout(window._s2);window._s2=setTimeout(syncRow,1500);} return; }
+    if(/^(cPrice|cMargin|cKeep|cOrders)$/.test(e.target.id)){calcCPA();return;}
+    if(/^(dCpc|dCvr|dPrice|dCeil)$/.test(e.target.id)){calcDiag();return;}
+    if(/^w[123]$/.test(e.target.id)){state.warm['w'+e.target.id.slice(1)]=e.target.value;save();updateHud();return;}
+    if(e.target.id==='commitText'){state.commitText=e.target.value;save();updateHud();return;}
+    if(e.target.id==='subText'){state.drafts[document.getElementById('subTask').value]=e.target.value;save();return;}
+  });
+  document.addEventListener('change',function(e){
+    var c=e.target.closest('[data-chk]');
+    if(c){ state.chk[+c.getAttribute('data-chk')]=c.checked; save();
+      var lb=c.closest('.chk'); if(lb)lb.classList.toggle('on',c.checked);
+      chkStatus(); updateHud(); if(loggedIn())syncRow(); }
+  });
+  document.getElementById('warmSave').addEventListener('click',async function(){
+    if(!loggedIn()){toast('先報到才能貼上牆');openReg();return;}
+    if(!(state.warm.w1&&state.warm.w2)){toast('至少填前兩格');return;}
+    var ok=await syncRow();
+    document.getElementById('warmStatus').textContent=ok?'✓ 已貼上牆，往下捲就看得到全場的答案。':'⚠️ 送出失敗，再按一次。';
+    toast(ok?'📣 已貼到全場牆上':'⚠️ 送出失敗，再按一次');
+    refreshStats(); updateHud();
+  });
+  document.getElementById('warmCopy').addEventListener('click',function(){copyTxt(this,warmText(),'📋 已複製這句話');});
+  document.getElementById('audCopy').addEventListener('click',function(){copyTxt(this,audText(),'📋 受眾表已複製');});
+  document.getElementById('audDemo').addEventListener('click',function(){
+    AUD_COLS.forEach(function(c,ci){state.aud['r0c'+ci]=AUD_DEMO[ci];});
+    save(); renderAud(); updateHud(); toast('已帶入簡報範例，改成你自己的產品');
+  });
+  document.getElementById('audClear').addEventListener('click',function(){ if(!confirm('清空整張受眾表？'))return; state.aud={}; save(); renderAud(); updateHud(); });
+  document.getElementById('creCopy').addEventListener('click',function(){copyTxt(this,creText(),'📋 素材表已複製');});
+  document.getElementById('calcCopy').addEventListener('click',function(){copyTxt(this,calcText(),'📋 已複製你的數字');});
+  document.getElementById('copyAll').addEventListener('click',function(){copyTxt(this,allPromptsText(),'📋 11 段提示詞都複製好了，存起來改成自己的版本');state.tools.copied=1;save();track('copy_prompt',{id:'all'});});
+  document.getElementById('printPrompts').addEventListener('click',function(){
+    renderPrompts('all');
+    document.querySelectorAll('.pfilter').forEach(function(b){b.classList.toggle('on',b.getAttribute('data-pf')==='all');});
+    document.querySelectorAll('.pbody').forEach(function(e){e.classList.add('open');});
+    track('print_prompts',{}); setTimeout(function(){window.print();},250);
+  });
+  document.getElementById('subTask').addEventListener('change',function(){setTask();});
+  document.getElementById('tplBtn').addEventListener('click',function(){applyTpl(false);});
+  document.getElementById('subMode').addEventListener('click',function(e){
+    var b=e.target.closest('[data-m]'); if(!b)return;
+    subMode=b.getAttribute('data-m');
+    this.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b);});
+    document.getElementById('subTextWrap').style.display=subMode==='text'?'block':'none';
+    document.getElementById('subImgWrap').style.display=subMode==='image'?'block':'none';
+  });
+  document.getElementById('dropz').addEventListener('click',function(){document.getElementById('subFile').click();});
+  document.getElementById('dropz').addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();document.getElementById('subFile').click();}});
+  document.getElementById('subFile').addEventListener('change',function(){
+    var f=this.files&&this.files[0]; if(!f)return; subFileObj=f;
+    var dz=document.getElementById('dropz'); dz.classList.add('has');
+    var rd=new FileReader(); rd.onload=function(ev){dz.innerHTML='<div>✓ 已選：'+esc(f.name)+'</div><img src="'+ev.target.result+'" alt="預覽">';};
+    rd.readAsDataURL(f);
+  });
+  document.getElementById('subBtn').addEventListener('click',doSubmit);
+  document.getElementById('saveCommit').addEventListener('click',async function(){
+    if(!loggedIn()){openReg();return;}
+    var ok=await syncRow(); toast(ok?'💾 已存到後台':'⚠️ 存檔失敗，稍後再試'); chkStatus();
+  });
+  document.getElementById('printCommit').addEventListener('click',printCard);
+  document.getElementById('shareBtn').addEventListener('click',function(){
+    var url=location.origin+location.pathname;
+    if(navigator.share){navigator.share({title:'從流量到訂單：AI 助攻的新創廣告投放攻略',text:'受眾、素材、預算、數據四關，11 段提示詞與試算工具都在這一頁。',url:url}).then(function(){track('share',{});}).catch(function(){});}
+    else{copyTxt(this,url,'🔗 已複製這一頁的網址');}
+  });
+
+  /* ---------- 啟動 ---------- */
+  document.getElementById('subTask').innerHTML=TASKS.map(function(t){return '<option value="'+t[0]+'">'+esc(t[1])+'</option>';}).join('');
+  document.getElementById('dropz').setAttribute('tabindex','0');
+  document.getElementById('dropz').setAttribute('role','button');
+  renderPrompts('all'); renderTools(); renderAll(); setTask('t1');
+  refreshStats(); loadAllSubs();
+  setInterval(function(){
+    var a=document.querySelector('.tab-section.active'); var tab=a?a.getAttribute('data-tab'):'';
+    if(tab!=='prompts'&&tab!=='tools')refreshStats();
+    if(tab==='upload')loadAllSubs();
+  },15000);
+  setInterval(function(){ if(loggedIn()&&navigator.onLine!==false)syncRow(); },45000);
+  setTimeout(function(){ if(!loggedIn()){ openReg(); } },900);
+})();
+</script>
+</body>
+</html>
